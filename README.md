@@ -9,3 +9,7 @@ The City Scan Data Wiki documents every data layer included in City Scan — wha
 ## About City Scan
 
 City Scan is a rapid geospatial assessment tool that uses publicly available global datasets to produce maps, data, visualizations, and insights about the built and natural environments of a city or area of interest.
+
+## Link to Data Wiki
+
+https://carolinecullinan.github.io/city-scan-data-wiki/
