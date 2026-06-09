@@ -1,6 +1,6 @@
 # City Scan Data Wiki
 
-A reference guide to the data layers used in the [City Scan](https://github.com/cityresilience/city-scan) open-source geospatial tool.
+A reference guide to the data layers used in the <a href="https://github.com/cityresilience/city-scan" target="_blank">City Scan</a>open-source geospatial tool.
 
 ## Overview
 
@@ -12,4 +12,4 @@ City Scan is a rapid geospatial assessment tool that uses publicly available glo
 
 ## Link to Data Wiki
 
-https://carolinecullinan.github.io/city-scan-data-wiki/
+View <a href="https://carolinecullinan.github.io/city-scan-data-wiki/" target="_blank">Data Wiki</a>
