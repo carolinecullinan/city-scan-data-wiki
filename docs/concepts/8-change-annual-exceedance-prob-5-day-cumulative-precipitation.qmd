@@ -1,0 +1,36 @@
+---
+title: "Change in Annual Exceedance Probability of 5-Day Cumulative Precipitation"
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Extreme precipitation events are often characterized by return periods: for example, an event with a 20-year return period has a 5% probability of occurring in any given year. In simple terms, this indicator describes how much more likely an extreme precipitation event of a certain return is expected to occur in the future. For instance, if a 50-year rainfall event today is projected to become a 25-year event in 2100, the change in annual exceedance probability is 2, because it will be twice as likely to occur. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+When it comes to precipitation impacts, the extreme events often cause much more harm than the aggregate precipitation amount. In Bangladesh, in particular, extreme rainfalls during monsoon seasons frequently displace communities, strain infrastructure, and exacerbate existing vulnerabilities in the population. As climate change make extreme events more likely to occur in certain places, it is critical to update the expectation for these “rare” events and prepare early warning systems and emergency responses adequately. 
+:::
+
+::: {.callout-note title="Footnote"}
+1. <a href="https://www.sciencedirect.com/science/article/pii/S0048969721036779" target="_blank">https://www.sciencedirect.com/science/article/pii/S0048969721036779</a> 
+
+2. <a href="https://sustainability.stanford.edu/news/how-vegetation-alters-climate" target="_blank">https://sustainability.stanford.edu/news/how-vegetation-alters-climate</a> 
+
+3. Sentinel-2 satellites capture 13 bands. NDVI uses bands number 4 and 8 for red (650–860 nm wavelength) and near-infrared (780–885 nm) radiation, respectively. While the satellites observe the the earth's surface at a resolution of 10–60 meters, both bands 4 and 8 have a resolution of 10 meters. See <a href="https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/" target="_blank">https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/</a>.
+
+4. <a href="https://www.zurich.com/knowledge/topics/flood-and-water-damage/three-common-types-of-flood" target="_blank">https://www.zurich.com/knowledge/topics/flood-and-water-damage/three-common-types-of-flood</a> 
+
+In an analogy to probability, the fuzzy gamma operator combines the probability that any of a set of events happen and that the probability that all of a set of events happen. (Note, though, that neither input variables in this model, nor the outcome susceptibility, are probabilities.) Mathematically, the fuzzy operator is  
+
+ $\left(1 - \prod_{i}^{n} (1 - X_i)\right)^\gamma \cdot \left( \prod_{i}^{n} X_i \right)^{1-\gamma}$ 
+
+  where $X_i$ is the transformed input variable $i$ in the set of $n$ non-slope variables, and $\gamma$ is the parameter defining how much to weight, by analogy, the probability of any event occurring (left side) versus the probability of all events happening (right side). In this model, $\gamma$ is set to 0.9.
+
+6. Kramer, Steven Lawrence. 1985. ["Liquefaction of Sands Due to Non-seismic Loading (Landslide, Triaxial, Compiance, Montana)"](<a href="https://www.proquest.com/openview/bd9efecaff7df535c0654c9f582ed1ff/1" target="_blank">https://www.proquest.com/openview/bd9efecaff7df535c0654c9f582ed1ff/1</a>) 
+
+7. Johansson, Jörgen. 2000. [Soil Liquefaction](<a href="https://depts.washington.edu/liquefy/html/how/how1.html" target="_blank">https://depts.washington.edu/liquefy/html/how/how1.html</a>). University of Washington.
+:::

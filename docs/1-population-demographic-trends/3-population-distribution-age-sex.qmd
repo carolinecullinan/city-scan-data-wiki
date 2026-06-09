@@ -1,0 +1,67 @@
+---
+title: "Population Distribution by Age and Sex"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WorldPop</td>
+      <td>Population count, by age and sex</td>
+      <td>People</td>
+      <td><a href="https://www.worldpop.org" target="_blank">WorldPop</a></td>
+      <td>NA</td>
+      <td>2000–2020</td>
+      <td>Global</td>
+      <td>100 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+This column chart classifies the city's population according to age group, forming the basis of population projections. Populations vary significantly in their proportions of young and old people, with younger age structures typically associated with growing populations, and older ones with slower or negative growth. Reproductive age is defined as 15–49. Working age is defined as 15–64.
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Age–sex distribution provides critical insight into labor supply, dependency ratios, and future service demand. A larger working-age population can boost economic productivity, while high proportions of children or older adults signal greater needs for education, health care, and social protection. 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Population data by age and sex are derived from censuses and projections, then disaggregated using gridded population models. For this dataset, counts are grouped into standard five-year intervals, separated by sex, and aggregated to the city level. This provides a consistent, comparable view of the age–sex structure across different urban contexts. 
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+The shape of the age–sex distribution can offer important clues about a city’s demographic dynamics and future trajectory. A population dominated by younger cohorts may suggest demographic momentum and potential for future growth. A broad working-age population (15–64) may reflect the capacity for greater productivity. In contrast, a higher share of older residents may point to emerging needs in healthcare, care systems, and inclusive urban design. 
+:::
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Bondarenko, Maksym, David Kerr, Alessandro Sorichetta, and Andrew Tatem. 2020. “Census/Projection-Disaggregated Gridded Population Datasets for 189 Countries in 2020 Using Built-Settlement Growth Model (BSGM) Outputs.” University of Southampton. https://doi.org/10.5258/SOTON/WP00684. 
+</div>
+:::

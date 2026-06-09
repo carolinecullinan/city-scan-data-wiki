@@ -1,0 +1,60 @@
+---
+title: "Road Network Orientation (Chart Only)"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>OpenStreetMap </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.openstreetmap.org/?#map=6/42.09/12.56" target="_blank">OpenStreetMap </a></td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+This layer visualizes the geometric orientation of a city’s streets, specifically the proportion of streets that point east, west, north, south, or to any point around a compass. Street edge bearings can help illuminate the history of urban design, physical constraints (such as topography or coastline), ancient infrastructure (such as trade routes or irrigation systems), economic geography, historical land tenure and agricultural legacy (including the shapes and boundaries of parcels), political (e.g., colonial or administrative dispositions), cultural or religious, and morphological factors, among others. It can also allow the evaluation of existing transportation patterns and configurations and the exploration of new planning proposals and alternatives.
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Street edge bearings offer a valuable lens into the spatial logic and urban form of a city. By analyzing the directional orientation of streets, planners can understand the geometric structure of the street network and assess the efficiency, connectivity, and legibility of a transportation system.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Cities built since the 1900s with grid-based urban planning exhibit a clear “compass rose” pattern (the majority of street bearings point in a narrow band of N-S degrees, and another narrow band of E-W degrees, e.g. Manhattan, New York City). The connectedness of a grid supports route choice, convenience, walkability, and in turn the human dynamics of social mixing, activity, and encounter. Cities with a highly organic urban form, and limited top-down planning, exhibit a heterogeneous set of edge bearings, equally spread across all corners of the compass (e.g. Kigali, Rwanda), generating a circular distribution. In other cases, partial areas within a highly planned city coexist alongside organic patterns for the remaining city, creating a hybrid pattern. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+“OpenStreetMap.” n.d. OpenStreetMap. https://www.openstreetmap.org/
+</div>
+:::

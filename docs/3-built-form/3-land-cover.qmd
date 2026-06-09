@@ -1,0 +1,78 @@
+---
+title: "Land Cover"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ESA WorldCover </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://esa-worldcover.org/en" target="_blank">European Space Agency</a></td>
+      <td>2020</td>
+      <td>2020,2021</td>
+      <td>Global</td>
+      <td>10 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Unlike land use, which describes how land is used by people, the land cover layer classifies the physical surface of the Earth into distinct types including vegetation, built-up areas, water bodies, bare soil, mangroves, cropland, among others. Land cover is dynamic and can change over time due to urban expansion, deforestation, agriculture, or restoration efforts. This makes land cover a useful indicator for tracking urban growth, land degradation, or the effectiveness of conservation measures.
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Land cover types are essential for understanding the composition and function of urban and peri-urban areas. They help planners and decision-makers evaluate how land is utilized and distributed, and assess availability of land for future development or conservation. This information is critical for zoning, land-use planning, and designing infrastructure that balances urban growth, preserveration of ecosystems, reduction of habitat loss, assessment of available land and existing risks (including heatwave, landslides and flood). It also provides a baseline to track land use changes over time—critical for monitoring urban sprawl, deforestation, and resilience to environmental shocks. This also is critical to ensure efficient and organized uses for land and maximize social and economic benefits of residential, commercial, industrial, agricultural, and conservation areas.
+
+When combined with other layers—such as population distribution, infrastructure, or hazard maps—land cover information allows for more targeted, data-driven decision-making. For example, it can help identify areas lacking tree canopy or green space, evaluate the potential for nature-based solutions, monitor environmental degradation, or assess the balance between built and natural environments.
+
+::: {.callout-tip title="Example"}
+In Bangladesh:  
+
+Rapid urban growth has led to an increase in urbanized land and urban sprawl into peri-urban and rural communities.  
+
+Increased demand for food has required a greater need for agricultural land, causing natural areas to be converted to agricultural fields, and the intensification of agriculture can transform land cover types  
+
+Overall increases in aquaculture too, especially in coastal areas  
+:::
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+The European Space Agency (ESA) developed the first global land cover product for the years 2020 and 2021 at a very fine resolution of 10 meters, developed and validated almost in real time based on Sentinel-1 and Sentinel-2 data. Specialists first label certain areas of the imagery with known land cover types (such as forests, or water bodies), and then use these labeled examples to train computer models in how to classify the rest of the images. By comparing pixel characteristics such as color or texture, the model can estimate what type of land cover exists in each location. The data is organized into 11 broad land cover classes, aligned with the UN FAO’s Land Cover Classification system and the framework is aligned with the ESA’s WorldCover project.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Mapping land cover is effective to look at the spatial distributions of land uses and also distinguish the difference between natural and man-made surfaces. Urbanized land may slightly differ from the WSF urbanized land due to the data coming from different sources. However, satellite-based imagery has limitations and there may be risks of misclassification because the accuracy is sensitive to spectral ambiguity—for example, sport fields with artificial turf may appear similar to natural grassland. For this reason, it may be necessary to complement the analysis with additional information to verify or correct anomalies.
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Zanaga, Daniele, Ruben Van De Kerchove, Wanda De Keersmaecker, Niels Souverijns, Carsten Brockmann, Ralf Quast, Jan Wevers, et al. 2021. “ESA WorldCover 10 m 2021 V200.” Zenodo. https://doi.org/10.5281/zenodo.5571936.
+</div>
+:::

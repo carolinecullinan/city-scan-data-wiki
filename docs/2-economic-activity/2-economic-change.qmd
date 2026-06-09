@@ -1,0 +1,66 @@
+---
+title: "Economic Change"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Visible Infrared Imaging Rediometer Suite (VIIRS) Stray Light Corrected Nighttime Day/Night Band Composites Version 1</td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.earthdata.nasa.gov/data/instruments/viirs/land-near-real-time-data" target="_blank">NASA Earthdata</a></td>
+      <td>NA</td>
+      <td>2013-NRT</td>
+      <td>Global</td>
+      <td>750 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Economic change measures the monthly variation in nighttime light intensity across urban areas, using data from the Visible Infrared Imaging Radiometer Suite (VIIRS). Whereas the economic activity layer, which shows cumulative radiance levels, this map displays the 10-year trend in radiance, offering a dynamic view of shifts in economic activity. Positive values represent an increase in nighttime lights emission and by proxy, economic activity, whereas negative values represent a decrease in nighttime lights emission and economic activity.  
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Change in economic activity introduces a temporal dimension. By tracking shifts in nighttime light intensity over time, this layer reveals spatial patterns of economic transformation across an urban region. It is particularly useful for detecting emerging trends such as the growth of new commercial corridors, the expansion of urban fringes, the gradual recovery of previously inactive zones, or the movement of commerce or industry away from a prior center.
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+The monthly nighttime light data is processed and extracted in the same way as the economic activity data. Rather than aggregating the monthly averages, the economic change analysis fits a linear regression model to the most recent 120-months of data for each raster cell. The value displayed for each cell is the month coefficient.
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Areas with positive values have demonstrated an increase in nighttime light emissions, on the whole, in the most recent 10 years, which may denote an increase in economic activity. Conversely, negative values may indicate a decrease in economic activity. However, since nighttime lights are only a proxy, not a direct measure of economic output, these signals should be interpreted with caution. The same caveats as those noted for the economic activity layer apply here.  
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Mills, Stephen, Stephanie Weiss, and Calvin Liang. 2013. “VIIRS Day/Night Band (DNB) Stray Light Characterization and Correction.” In Earth Observing Systems XVIII, 8866:549–66. SPIE. https://doi.org/10.1117/12.2023107.
+</div>
+:::

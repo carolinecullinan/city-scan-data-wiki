@@ -1,0 +1,78 @@
+---
+title: "Population Growth"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global Cities Database</td>
+      <td>Population count</td>
+      <td>People</td>
+      <td>Oxford Economics</td>
+      <td>2022</td>
+      <td>2000–2040</td>
+      <td>Global</td>
+      <td>City-level</td>
+    </tr>
+    <tr>
+      <td>City Population</td>
+      <td>Population count</td>
+      <td>People</td>
+      <td><a href="https://www.citypopulation.de" target="_blank">Thomas Brinkhoff</a></td>
+      <td>On-going</td>
+      <td>1970–2024</td>
+      <td>Global</td>
+      <td>Administration-level</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Population figures are typically used as a denominator for many indicators, and are a measure of demand for services. The line chart above summarizes the city's population change according to census and other public data. High growth of urban populations, caused by rates of natural increase (more births than deaths) in urban areas, migration from rural to urban areas, and the transformation of rural settlements into urban places, puts pressure on cities to meet the new demand
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Population growth is a key driver metric for understanding the pace and nature of urban change. They help identify whether growth is steady, accelerating, or declining—insights that are critical for planning housing, transportation, utilities, schools, healthcare, among other essential services and infrastructure. Tracking population growth also allows comparison with other urban indicators, such as job creation, revealing whether infrastructure and service provision is keeping pace with demand.  
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Population growth data are typically compiled from national or local censuses, statistical agencies, and international databases. Intermediate years between census rounds may be estimated using demographic models that incorporate birth and death rates, migration statistics, and household survey data. 
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+ rising population trend may indicate migration inflows, high natural birth rates, or a growing economy, while a declining trend could point to out-migration, aging demographics, or economic stagnation. Sudden increases may reflect administrative reclassification rather than actual migration or birth spikes. Conversely, a drastic decline can be a result of natural disasters, pandemics, or any other catastrophe. Population growth rates can be relevant for comparisons with changes in land area, density (especially when it is driving a rapid urban sprawl), and infrastructure provision. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Oxford Economics. (2022). Global Cities Database. Oxford Economics Ltd.
+https://www.oxfordeconomics.com/
+
+Brinkhoff, T. City Population. https://www.citypopulation.de. Accessed June 2026.]
+</div>
+:::

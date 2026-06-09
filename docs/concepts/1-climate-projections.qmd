@@ -1,0 +1,38 @@
+---
+title: "Climate Projections"
+---
+---
+
+::: {.wiki-section}
+## What Is This, and How Was It Made?
+
+Climate projection models are tools that scientists use to predict how the Earth's climate might change in the future. These models simulate the interactions between the atmosphere, oceans, land, and ice, taking into account factors like greenhouse gas emissions and natural climate processes. By running these models under different scenarios, scientists can estimate potential changes in temperature, precipitation, sea level, and other climate-related factors over time. This helps us understand and prepare for future climate conditions. 
+
+Because the climate is very complex, different models might emphasize various aspects of the climate system or use slightly different assumptions, so by combining them into a multi-model ensemble, scientists can average out individual biases and gain a more robust and reliable prediction of future climate changes. This approach also helps identify where models agree or disagree, improving confidence in the results. 
+
+The climate projections in this analysis are directly adapted from the Climate Change Knowledge Portal (CCKP), which computes a range of climate indicators using median values of multi-model ensembles derived from the sixth phase of the Coupled Model Intercomparison Project (CMIP6). Up to 31 CMIP6 models are used in the CCKP-CMIP6 collection. CCKP defines the 20-year window of 1995-2014 as the reference period, and any future projections are compared against the climate condition during this reference period, so that we can gauge the magnitude of climatic changes. The future period used in this analysis is 2024-2100. 
+
+Moreover, SSP scenarios, or Shared Socioeconomic Pathways, are a set of narratives that describe different possible futures based on varying levels of social, economic, and environmental development. These scenarios are used in climate modeling to explore how different societal choices might impact greenhouse gas emissions and, consequently, climate change.  
+
+To disentangle the deep uncertainties embedded in climate models and to effectively inform decision-making on adaptation strategies, this analysis presents climate projections for X Shared Socioeconomic Pathways (SSPs): [TBD], each with its corresponding levels of designated Radiative Forcing (W/m2) by 2100 (radiative forcing is a measure of how much the Earth's energy balance is changed by factors like greenhouse gases, aerosols, or changes in solar energy). 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Bangladesh is particularly vulnerable to climate change due to its low-lying geography, dense population, and reliance on agriculture. The country faces increased risks of severe flooding, stronger cyclones, rising sea levels, and more intense heatwaves. These changes threaten homes, crops, and livelihoods, especially in coastal and rural areas. Climate change also exacerbates existing challenges like poverty and food security, making it crucial for Bangladesh to prepare and adapt to these growing threats. 
+
+The climate projections can help predict future risks like flooding, heatwaves, and sea-level rise. By understanding these potential changes, cities can make better decisions to protect communities, infrastructure, and livelihoods, ensuring a safer and more resilient future for the residents. 
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Climate model projections are valuable tools for understanding how climate change could impact cities, but they come with some caveats. These models are based on assumptions and scenarios that may not perfectly predict the future, so there's some uncertainty in the results. They also operate on large scales, so local factors unique to a city might not be fully captured. To help overcome some of the limitations, we include more detailed versions of the climate projection graphs that paint a fuller picture of the full range of model predictions, so that cities have a more comprehensive understanding of the potential hazards they might confront in the upcoming decades. Whenever possible, the climate projections should be used alongside other local data and expert advice when planning for climate impacts. 
+
+This analysis focuses on indicators related to temperature and precipitation to gain a rough understanding of possible changes in future heat, flood, and cold spell hazards. The following part explains each indicator in greater detail. 
+
+::: {.callout-note title="Footnote"}
+CCKP Metadata.  
+:::
+:::

@@ -1,0 +1,72 @@
+---
+title: "Solar"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global Solar Atlas </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://globalsolaratlas.info/map" target="_blank">Global Solar Atlas</a></td>
+      <td>2017</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>1 kilometer</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Solar availability is the measure of solar power potential in a theoretical 1 kWp photovoltaic (PV) system. Photovoltaics (PV) is the most widely applied and versatile technology for solar power. The availability of solar energy depends on site conditions. This map displays an indicative estimate of daily specific yield, that is, how much energy a hypothetical PV system would produce for per unit of capacity (kWh/kWp). Values above 4.5 are considered excellent availability, while values between 3.5 and 4.5 are moderate.  
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+PV offers a unique opportunity to achieve long-term energy sustainability goals. Determining parts of a city that may be optimal for PV can optimize renewable energy integration, support energy resilience, amplify economic growth and job creation, and maximize land use for energy creation efficiently.  
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+The data used in this map is derived from the "Global Solar Atlas 2.0," a free online tool developed and maintained by Solargis s.r.o. for the World Bank Group. The tool leverages Solargis data and is funded by the Energy Sector Management Assistance Program (ESMAP).  
+
+Note that The Global Solar Atlas provides a preliminary assessment of photovoltaic (PV) power potential for selected locations, based on generalized theoretical conditions. The analysis assumes an optimal tilt angle for PV modules and 100% system availability, without accounting for potential downtimes.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Within a city, variations in solar availability are typically minimal, with daily yields differing only slightly—for example, 4.5 kWh/kWp in one area versus 4.3 kWh/kWp in another. Because these differences are so small, PV siting decisions should consider other factors not reflected in solar availability maps, such as shading from nearby structures, roof orientation, and ease of access for maintenance. These practical considerations often outweigh the minor variations in solar yield, meaning that the map alone should not be the primary basis for choosing solar panel locations.  
+
+Additionally, solar availability varies throughout the year due to changes in cloud cover, making it crucial to assess how consistent solar energy production can be across different months. Solar systems are more sustainable when availability is relatively stable year-round, with a high-to-low availability ratio below 2:1, as this ensures that the system operates efficiently most of the time. This consistency is a key factor in determining the overall effectiveness and sustainability of solar energy installations. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+“Global Solar Atlas.” n.d. https://globalsolaratlas.info/. 
+
+Data obtained from the “Global Solar Atlas 2.0, a free, web-based application is developed and operated by the company Solargis s.r.o. on behalf of the World Bank Group, utilizing Solargis data, with funding provided by the Energy Sector Management Assistance Program (ESMAP). For additional information: https://globalsolaratlas.info 
+</div>
+:::

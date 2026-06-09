@@ -1,0 +1,16 @@
+---
+title: "Cold Spell Duration Index (CSDI)"
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Cold Spell Duration Index (CSDI) is the total number of days in a year that are part of a cold spell of 6 days or longer, when the daily minimum temperature is lower than in 90% of days in the reference period 1995-2014. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Longer cold spells can increase the risk of cold-related illnesses and mortality, especially for vulnerable populations like the elderly and those with pre-existing health conditions. Cold spells can also lead to infrastructure issues, damage crops, and affect food supply and livelihoods. 
+:::

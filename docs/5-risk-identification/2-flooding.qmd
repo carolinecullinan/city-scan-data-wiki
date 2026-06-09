@@ -1,0 +1,102 @@
+---
+title: "Flooding"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+      <td>Fathom-Global 3.0 Flood Hazard Data</td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.fathom.global/product/global-flood-map/" target="_blank">Fathom</a></td>
+      <td>2022</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>1 arc second (30 meters)</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+There are 12 total maps for flooding. These consist of maps for the three main types of urban flooding (fluvial, pluvial and coastal), as well as their combination, also known as compounded risk. Each of these flood types is laid over layers for population density, built-up area expansion, and urban infrastructure (including schools, health facilities, and police and fire stations) to show the areas and assets exposed to flooding. 
+
+There are three main types of urban flooding: 
+
+1. Fluvial or riverine flooding is floodwater from a watercourse, such as a river or canal. When the watercourse doesn't have capacity for the high levels of water flowing through it, the water overflows into surrounding areas. This overflow may occur because the water level is higher than the banks of the watercourse, or the high flow rate might break through an embankment. Often fluvial flooding is caused by intense rainfall or snowmelt upstream, though it can also be caused by other upstream factors, such as dam releases. Because fluvial flooding originates upstream, it can happen even when an area is not experiencing extreme precipitation, or even when it's dry. 
+
+2. Pluvial or rainwater flooding is floodwater that has not yet, or cannot, reach a watercourse. It is independent of an overflowing water body and it can occur in any urban area — even higher elevation areas that lie above and far from coastal and river floodplains. Pluvial flooding consists of both surface water and flash flooding, which both typically come from extreme rainfall. Surface water flooding happens when the rainwater overwhelms an area's drainage system, (whether natural or constructed) so that it cannot absorb and move the floodwater. This flooding can occur slowly, as it may take time for the drainage system to fill. Though slow, it can be very destructive, especially as the water may sit for a long time. Flash floods, as the name indicates, are much faster. The water comes so quickly that it may flood an area even while the drainage system still has capacity – the water just hasn't had time to reach it. These floods are often due to torrential rains in the nearby area and are aggravated by water funneling in from local places with higher elevation. Pluvial flooding of both types is worsened by more impermeable surfaces, such as concrete, which can limit water infiltration and increase the speed and amount of water running off the ground. 
+
+3. Coastal flooding occurs when sea water inundates or covers normally dry coastal land. Often coastal flooding happens when severe winds correspond with high tides, blowing the tidal waters landward in a storm surge. Coastal flooding can also occur, though, when tides are lower with greater winds, with tsunamis and no wind, and simply due to rising sea levels which push tides above historic levels. Due to the effects of climate change (e.g. sea level rise and an increase in extreme weather events), damage due to coastal flooding has intensified. 
+
+These maps also include the combined flood zones for these three flood types. The area of combined flooding is relevant not only for understanding the total extent of places exposed to any kind of flooding, but also because the three flood types are not always distinct: instead, they can compound, such as when a coastal storm surge raises the sea level, reducing the drainage system's capacity to absorb surface water. Similarly, a regional precipitation event very well might cause rivers to overflow and also flood the area with surface water. The concurrence of pluvial, fluvial and coastal flooding often aggravates the damage potential they individually produce. 
+
+For more information on the <a href="/docs/1-population-demographic-trends/2-population-density.qmd" target="_blank">population</a> and 
+<a href="/docs/3-built-form/2-built-up-density.qmd" target="_blank">built-up area</a> underlays, see their individual sections.
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+All three types of flooding are very pertinent to cities. First, the mere density of urban areas means that more people and more assets are exposed should a hazard occur. Second, cities frequently sit in more flood prone areas. Human settlements are very often situated near rivers for, among other things, increased water access, land fertility and mobility. While very helpful for many reasons, this location near water also increases exposure to fluvial flooding. Similarly, settlements near the sea face exposure to coastal flooding. Some common forms of built-up development have also made, and make, urban areas more flood prone. The pavement of urban areas and the use of impermeable materials, such as traditional asphalt and concrete, seal the ground and prevent rainwater from draining. In addition, urban areas often reroute or alter natural water ways and drainage routes. 
+
+* Flooding can have devastating effect on a place and its people, through injury, destruction and disruption. It can cause 
+
+* immediate harm to people, as the floodwater's depth and velocity can cause death and injury; 
+
+* damage to buildings and other assets, such as homes, schools, bridges, markets, agricultural crops, businesses, industrial facilities and cultural sites; 
+
+* disruption of social and economic life, as it restricts movement and access and causes power outages; 
+
+* environmental damage, as the flooding causes and carries leaks of pollutants; and 
+
+* displacement, as people leave their homes to avoid all of these harms. 
+
+By knowing where flooding is most likely to occur (as well as its likely particular causes and its origins), cities are more able to decrease both exposure and vulnerability. This knowledge can guide urban development and the siting of new projects away from exposed areas, and inform where flood mitigation projects should be focused. 
+
+A variety of responses are possible, including both structural and non-structural interventions. Structural interventions include "blue" infrastructure, like retention ponds, bioswales, water squares, underground storage and floodplain extension; "green" infrastructure, like mangroves, salt marshes and green roofs; and "grey" infrastructure, like dikes, canals, pump stations, storm surge barriers, flood walls and sea walls. Non-structural interventions include warning systems, emergency institutions, and changes to building codes. A spatial understanding of a city's flood exposure can direct a city's efforts on where to build flood infrastructure, where not to build non-flood projects, and how to spatially adapt non-structural interventions. 
+
+The overlay with population density indicates which areas of expected flooding would likely affect the most people. It also indicates the kinds of preparedness and coordination different areas may require during a flood disaster. Areas with greater population density may likely require greater resource allocation and longer evacuation times. 
+
+Within a city's boundaries, not all land is developed. The overlay with built-up area shows how the flood zone intersects with where buildings are. This juxtaposition is helpful for multiple reasons. First, it indicates different types of exposure. Flooding in built-up areas and non-built-up areas can both be problematic, but the kind of impact will differ as the former would damage buildings while the second may destroy crops and pollute water sources. Second, as stated previously, urban areas often comprise impervious surfaces, a map of built-up area shows how pluvial flooding may be increased in developed zones. Third, the map of built-up area shows the physical expansion of the city in recent decades. It may indicate how urban factors such as land price, zoning, etc., are guiding the city toward or away from flood zones. Knowing whether newer or older construction is more common in flood zones can also indicate the likely types of construction in the flood zones, and how flood resilient they likely are. 
+
+The social infrastructure underlay maps where hospitals, schools, fire stations and police stations are located, and is especially helpful for understanding a city's disaster response. These services are obviously important to a city's functioning and so it is important to know their exposure. Even more so, however, each of these services and facilities are central in the immediate aftermath of a disaster. Flooding can cause serious injury, and so access to hospitals and health clinics is imperative. If these facilities are themselves exposed to flooding, they are less able to meet the needs of flooding's victims elsewhere in the city. Similarly, fire and police services are often first responders in the wake of a crisis: if they are exposed to flooding, they are less able to respond. Finally, while the educational aspect of schools may be less pertinent during and immediately after a flood event, schools are often larger public buildings which can house displaced peoples. 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+The global flood map begins with a high resolution global map of elevation: water flows downhill and fills basins, so it's important to know where the downhills and basins are. This elevation map uses the Copernicus Digital Elevation Model, but then removes surface objects like buildings and forests. This terrain model, though, does not include river depths – it shows rivers' water surfaces not the river beds. Water channel depth, then, needs to be derived by estimating water flow through the channel and calculating the necessary depth of each cross section for that flow. Onto this adapted terrain model, the flood model then layers on hydrodynamic models simulating how water moves across terrain during extreme river flow and rainfall events, and hydrological models simulating how water moves across water systems. Finally, the frequency and magnitude of extreme precipitation events (as well as how they are expected to change with climate change) are factored in. The resulting model has a critical success index (ratio of total observed events and predicted events that were both true events and predicted) of 0.75. 
+
+To read more about Fathom's methodology, read about their "method stack" <a href="https://www.fathom.global/product-stack/?" target="_blank">here</a>. Each step in the process includes research articles which go further in depth. 
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+These maps show the 15-cm flood zones with 1-in-10, 1-in-100 and 1-in-1000 year return periods. That is, they show the areas that are expected to flood to a depth of at least 15 centimeters at least once in a 10-year, 100-year or 1,000 year span. It is important to note, though, that due to the effects of climate change, with its change in precipitation levels and increase in extreme events, the expected frequency of flooding is changing. In general, flooding is expected to become more frequent and more severe.  
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Fathom. Flood Hazard: Global 3.0. V3. https://www.fathom.global.
+</div>
+:::

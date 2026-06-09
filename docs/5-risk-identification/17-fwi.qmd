@@ -1,0 +1,89 @@
+---
+title: "Fire Weather Index (FWI)"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global Fire Weather Database</td>
+      <td>Fire Weather Index</td>
+      <td>---</td>
+      <td>NASA</td>
+      <td>2015</td>
+      <td>1990-Present</td>
+      <td>Global</td>
+      <td>0.5° latitude by 2/3° longitude </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+The Fire Weather Index (FWI) measures the potential for wildfire in an area at a given time, by combining measures of moisture, temperature, and wind. Areas with a higher index have a higher potential for wildfire, though the specific relationship between FWI and fire danger is highly localized; therefore values representing high fire potential must be determined locally. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Around the world, wildfires are becoming increasingly frequent and devastating due to climatic and anthropogenic drivers. Increased temperature resulting from climate change may lead to an increase in wildfire frequency and total burned area, and fire frequencies under expected conditions by 2050 are projected to increase by approximately 27% globally compared to 2000 levels. 
+
+::: {.callout-tip title="Example"}
+In Bangladesh:  
+
+Trends like shifting cultivation (“slash and burn”) and grazing are contributing to wildfires, which not only jeopardize nearby cities by killing lives and causing pollution, but also destroy valuable forests. Understanding the FWI trends can help cities prepare for fire seasons by raising awareness on fire prevention methods and implementing emergency response systems. 
+
+::: {.callout-note title="Footnote"}
+Farukh, Murad A., Md A. Islam, and Hiroshi Hayasaka. 2023. “Wildland Fires in the Subtropical Hill Forests of Southeastern Bangladesh.” Atmosphere 14 (1): 97. <a href="https://doi.org/10.3390/atmos14010097" target="_blank">https://doi.org/10.3390/atmos14010097</a>.   
+:::
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+The FWI originated from the Canadian Forest Fire Weather Index System, and our data source, the Global Fire Weather Database (GFWED), built upon this System to create a global FWI dataset. The FWI System includes three fire behavior indices that reflect the behavior of a fire if it were to start. The Initial Spread Index (ISI) represents the ability of a fire to spread immediately after ignition, with values greater than 15 considered extreme. The Buildup Index (BUI) represents the total fuel available to a fire, with values greater than 90 considered extreme. The Fire Weather Index (FWI) combines the ISI and BUI to provide an overall rating of fireline intensity in a reference fuel type and level terrain, with values greater than 30 considered extreme. 
+
+When we evaluate wildfire risk, we should be concerned about extreme values, instead of the average, because extreme values are what would trigger fires. Therefore, in the graph, the monthly FWI values are the 95th percentile of all the daily FWI values of that month during 2016-2021. This way, the extreme values of each month are captured, and we can see which months have the highest potential for wildfire events. 
+ 
+::: {.callout-note title="Footnote"}
+Field, R. D., A. C. Spessa, N. A. Aziz, A. Camia, A. Cantin, R. Carr, W. J. de Groot, et al. 2015. “Development of a Global Fire Weather Database.” Natural Hazards and Earth System Sciences 15 (6): 1407–23. <a href="https://doi.org/10.5194/nhess-15-1407-2015" target="_blank">https://doi.org/10.5194/nhess-15-1407-2015</a>. 
+:::
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+FWI values must be compared locally: months with higher FWI values represent periods when wildfire risks are relatively high. However, there are a few caveats when interpreting FWI: 
+
+* The FWI only relies on meteorological variables and therefore only captures the risk of wildfire from an atmospheric perspective. 
+
+* It does not include three important factors of wildfire risk and spread including: (1) vegetation/fuel availability, (2) ignition (natural or human-caused), and (3) fire suppression and management. As a result, not all extreme fire weather days will result in wildfires. 
+
+::: {.callout-note title="Footnote"}
+ <a href="https://climatedataguide.ucar.edu/climate-data/canadian-forest-fire-weather-index-fwi" target="_blank">https://climatedataguide.ucar.edu/climate-data/canadian-forest-fire-weather-index-fwi</a>.  
+:::
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Field, R. D., A. C. Spessa, N. A. Aziz, A. Camia, A. Cantin, R. Carr, W. J. de Groot, et al. 2015. “Development of a Global Fire Weather Database.” Natural Hazards and Earth System Sciences 15 (6): 1407–23. https://doi.org/10.5194/nhess-15-1407-2015.
+</div>
+:::

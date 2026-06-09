@@ -1,0 +1,58 @@
+---
+title: "Burnability"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ESA Land Cover CCI</td>
+      <td></td>
+      <td></td>
+      <td><a href="https://esa-worldcover.org/en" target="_blank">European Space Agency</a></td>
+      <td>2020</td>
+      <td></td>
+      <td>Global</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Burnability describes the structural fuel condition of the landscape, representing the inherent susceptibility of different land cover types to ignite and sustain fire. It reflects the flammability characteristics of vegetation and surface fuels based on land cover classification. Areas with higher burnability values correspond to land cover types that are more prone to propagating fire if an ignition source is present. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Mapping burnability helps identify where fire could spread more easily, which is useful to flag settlement areas with higher exposure—especially at the wildland–urban interface (WUI). It can inform land-use decisions and thus, avoid new development or expansion into higher-burnability zones. Finally, it can support the definition of setbacks or buffers around development and establish a fuel-management prioritization (where to clear or maintain vegetation, create fuel breaks, or reduce near-settlement fuels) to reduce fire spread velocity, and improve suppression chances. 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+This layer is derived from ESA Land Cover Climate Change Initiative (CCI) (2020), which provides global land cover classifications. As per Four Twenty Seven’s research and Gannon and Steinberg’s (2021) research, global trends in historical wildfire intensity and occurrence of wildfire in each land cover classification is converted into a single burnability factor. 
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+This layer visualizes the burnability factor of each land cover classification, based on assigning a binned weighting factor to represent burnability of each land classification. Burnability should be interpreted alongside fire weather indicators (e.g., FWI), as wildfire risk emerges from the interaction between fuels, weather, and human activity. 
+:::

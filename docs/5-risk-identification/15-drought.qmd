@@ -1,0 +1,47 @@
+---
+title: "Drought"
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Drought is a prolonged and exceptional period of insufficient water availability affecting ecosystems and communities, typically resulting from below-average rainfall, high temperatures and/or strong winds. These events are called megadroughts when they are very lengthy (usually a decade or more) and pervasive. 
+
+Drought can be classified based on its origin and the part of the water system affected: 
+
+* Meteorological: a period characterized by an abnormal precipitation deficit. 
+
+* Agricultural and ecological: a period of abnormal soil moisture deficit resulting from reduced precipitation and/or increased evapotranspiration, affecting crop production or the regular function of ecosystems. 
+
+* Hydrological: a period of sustained deficits in surface water (rivers, lakes, reservoirs) and groundwater levels. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Considered one of the costliest natural hazards, droughts can negatively impact agriculture and food security, hydropower generation and industrial activity, human and animal health, livelihood security, personal safety (for example, when women must travel long distances to collect water) and access to education, healthcare or other essential services. These impacts may also lead to conflict and population displacement, increasing strain on infrastructure and services in receiving settlements. In addition, persistent vegetation and soil moisture stress can contribute to land degradation, reduced crop yields, less capacity of CO₂ sequestration, loss of biodiversity, higher surface temperatures, increased wildfire risk, and desertification in arid and semi-arid areas. 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+The Normalized Difference Moisture Index (NDMI) is derived from satellite surface reflectance data and is designed to estimate vegetation water content. It is calculated using reflectance values from the Near Infrared (NIR) and Shortwave Infrared (SWIR) spectral bands as follows:  
+
+NDMI=(NIR - SWIR) / (NIR + SWIR) 
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+The Normalized Difference Moisture Index (NDMI) detects moisture content in vegetation, and is an indicator of water stress in crops. The stresses introduced by low soil moisture are borne by agricultural crops and biodiversity. It is also used to identify vegetation in dry areas with an increased risk of combustion. NDMI measures soil moisture from a range of -1 to 1. Negative values indicate water stress, and positive values may indicate water-logging. 
+:::
+
+::: {.wiki-section}
+## Methodology
+This map computes NDMI over the June to September 2014-2023
+
+::: {.callout-note title="Footnote"}
+© ESA Land Cover CCI 2020 / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium / Gannon et al 2021  
+:::
+:::

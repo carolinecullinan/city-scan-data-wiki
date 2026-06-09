@@ -1,0 +1,10 @@
+---
+title: "Sea Level Rise"
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+SLR refers to variations in the height of the sea surface over time, occurring at global or local scale. These changes are the result of multiple processes, including alterations in ocean volume due to shifts in water mass (such as glacier and ice sheet melt), thermal expansion or contraction of seawater, modifications in the coastal morphology and shape of ocean basins,  variations in the Earth’s gravitational and rotational fields, and land movements such as subsidence or uplift. 
+:::

@@ -1,0 +1,99 @@
+---
+title: "Lightning Flash Rate Density"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TRMM LIS Very High Resolution Climatology (VHRC) </td>
+      <td>Flash Rate Density</td>
+      <td>fl km–2 yr–1 </td>
+      <td>NASA</td>
+      <td>2016</td>
+      <td>1998–2013</td>
+      <td>Global</td>
+      <td>0.1° (approx. 11 kilometers at the equator)</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+The lightning flash rate density here refers to the mean annual flash rate density, which is the total lightning flashes per year per square kilometer. It comes from a NASA dataset called the LIS 0.1 Degree Very High Resolution Gridded Lightning Full Climatology (VHRFC) dataset, which measures the distribution and variability of total lightning occurring in the Earth's tropical and subtropical regions. 
+
+::: {.callout-note title="Footnote"}
+“LIS 0.1 DEGREE VERY HIGH RESOLUTION GRIDDED LIGHTNING FULL CLIMATOLOGY (VHRFC) V1.” n.d. NASA. <a href="https://cmr.earthdata.nasa.gov/search/concepts/C1979883245-GHRC_DAAC.html" target="_blank">https://cmr.earthdata.nasa.gov/search/concepts/C1979883245-GHRC_DAAC.html</a>. 
+:::
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+* This information can be used for severe storm detection and analysis, which can help cities prepare for and prevent potential lightning damages. 
+
+* The Khasi Hills, on the border between India and Bangladesh, is one of the lightning hotspots in Asia. 
+
+* United Nations (UN)data shows that Bangladesh loses 300 lives per year due to lightning strikes, a figure that is starkly higher compared to that of the United States, with less than 20 deaths per year. 
+
+* Deaths caused by lightning are rising in Bangladesh, and extreme weather caused by climate change is to blame for the increase in fatalities. 
+
+::: {.callout-note title="Footnote"}
+Albrecht, Rachel I., Steven J. Goodman, Dennis E. Buechler, Richard J. Blakeslee, and Hugh J. Christian. 2016. “Where Are the Lightning Hotspots on Earth?,” November. <a href="https://doi.org/10.1175/BAMS-D-14-00193.1" target="_blank">https://doi.org/10.1175/BAMS-D-14-00193.1</a>. 
+
+“Bangladesh: Climate Change Is Increasing Lightning Deaths.” 2024. PreventionWeb. January 26, 2024. <a href="https://www.preventionweb.net/news/climate-change-increasing-lightning-deaths-bangladesh" target="_blank">https://www.preventionweb.net/news/climate-change-increasing-lightning-deaths-bangladesh</a>.  
+:::
+
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+* The lightning flash measurements are taken by the Lightning Imaging Sensor (LIS) instrument on board the NASA Tropical Rainfall Measuring Mission (TRMM) launched in November 1997. It is designed to detect lightning from space during both day and night with storm-scale resolution. The LIS was powered off and the TRMM mission ended data collection on 8 April 2015, terminating a mission lasting a total of 17+ years. 
+
+* TRMM started its descending path to decommissioning in 2014 with several instrument outages during the period, which the dataset authors expect could introduce uncertainties on the lightning data. Therefore, 2014 and 2015 data were not included in the dataset. 
+
+::: {.callout-note title="Footnote"}
+Albrecht, Rachel I., Steven J. Goodman, Dennis E. Buechler, Richard J. Blakeslee, and Hugh J. Christian. 2016. “Where Are the Lightning Hotspots on Earth?,” November. <a href="https://doi.org/10.1175/BAMS-D-14-00193.1" target="_blank">https://doi.org/10.1175/BAMS-D-14-00193.1</a>. 
+:::
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+The number of lightning flashes is only one factor in the fatalities caused by lightnings. The majority of victims of lightning are farmers, who are vulnerable to the elements as they work in the fields through the rainy monsoon months in the spring and summer. Therefore, higher lightning flash rate density does not necessarily mean higher fatality rates. The vulnerability of the local population—especially outdoor workers during monsoons—plays a big part as well. 
+
+::: {.callout-note title="Footnote"}
+Vaidyanathan, Rajini. 2023. “Bangladesh Sees Dramatic Rise in Lightning Deaths Linked to Climate Change.” BBC, December 31, 2023. <a href="https://www.bbc.com/news/world-asia-67779223" target="_blank">https://www.bbc.com/news/world-asia-67779223</a>.  
+:::
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+*[Full citation for the primary dataset. Include author/organization, title, year, URL, and access date.
+
+Example:
+Oxford Economics. (2022). Global Cities Database. Oxford Economics Ltd.
+https://www.oxfordeconomics.com/
+
+Brinkhoff, T. City Population. https://www.citypopulation.de. Accessed June 2026.]*
+</div>
+:::

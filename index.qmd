@@ -1,0 +1,25 @@
+---
+title: "About"
+---
+
+## What is City Scan?
+
+As a rapid geospatial assessment, the City Scan uses the best publicly available global datasets and open-source tools to package together maps, data, visualizations, and insights about the built and natural environments. With a City Scan in hand, Readers can begin to think more spatially about the critical resilience challenges that their areas of interest may face.  The City Scan can serve as a structured body of strong evidence that can help raise good questions and fuel critical conversations to support deeper understanding around pressing urban resilience challenges, if it is read with both possibilities and limitations in mind.
+
+## How to use the City Scan Data Wiki
+
+Each data layer page follows the same structure:
+
+<br>
+
+| Section | What it covers |
+|---|---|
+| **Data table** | Dataset name, measurement, units, source, release year, years of data, coverage, resolution |
+| **What Is It?** | Description of the data layer |
+| **Why Use It?** | The rationale for including it in City Scan |
+| **How Is It Made?** | Methodology and processing steps |
+| **How Should We Interpret It?** | Guidance on reading outputs and avoiding misinterpretation |
+| **Source Data Citation** | Full citation for the underlying dataset |
+
+<br><br>
+Use the sidebar to browse by City Scan section, or use the **search box** to find a specific layer.

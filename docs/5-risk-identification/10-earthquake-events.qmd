@@ -1,0 +1,45 @@
+---
+title: "Earthquake Events"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Forest And Buildings removed Copernicus DEM </td>
+      <td>Elevation</td>
+      <td>Meters above sea level</td>
+      <td><a href="https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn" target="_blank">Fathom</a></td>
+      <td>2023</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>30 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+National Geophysical Data Center / World Data Service (NGDC/WDS): NCEI/WDS Global Significant Earthquake Database. NOAA National Centers for Environmental Information. DOI:10.7289/V5TD9V7K 
+
+Note that the cited damage level is for the earthquake overall, not necessarily in the city of interest. The database defines damage levels by monetary cost: limited, < $1 million; moderate, $1–5 million; severe, $5–24 million; extreme, $25+ million. 
+</div>
+:::

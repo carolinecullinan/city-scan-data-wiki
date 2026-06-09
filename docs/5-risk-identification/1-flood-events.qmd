@@ -1,0 +1,50 @@
+---
+title: "Flood Events"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global Active Archive of Large Flood Events </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://floodobservatory.colorado.edu/wiki/Main_Page" target="_blank">Dartmouth Flood Observatory</a></td>
+      <td>NA</td>
+      <td>1985-Present</td>
+      <td>Global</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## Methodology
+
+These events are recorded in the Dartmouth Flood Observatory’s Global Active Archive. The archive may not include all significant flood events. The death and displacement figures reflect the deaths and displacements for the entire flood extent, which may include areas greater than the city’s extent. 
+
+See Data Notes for more information on the archive and its severity classifications.
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Brakenridge, G.R. n.d. “Global Active Archive of Large Flood Events.” Dartmouth Flood Observatory, University of Colorado. https://floodobservatory.colorado.edu/Archives/index.html.
+</div>
+:::

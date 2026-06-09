@@ -1,0 +1,32 @@
+---
+title: "Coastal Erosion"
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Coastal erosion refers to the long-term landward retreat of the shoreline caused by natural marine and atmospheric processes such as wave action, currents, storm surges, and sea-level rise. This process has been accelerated by unregulated human activities (such as coastal urbanization and unsustainable tourism) that alter sediment transport. 
+
+Coastal erosion leads to shoreline retreat and beach lowering, threatens home, roads and other critical infrastructure, and causes a particular disruption of activities such as agriculture, fisheries, and tourism, increasing the risk of flooding. 
+
+Accretion occurs when there is an accumulation of sediment such as sand, silt, or organic matter, and the coast is advancing seawards. While this may seem positive, it often indicates sand being trapped by man-made structures such as groynes or jetties, which can starve downdrift shorelines of sediment and lead to increased coastal erosion in those areas . 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Coastlines are dynamic and continuously shaped by waves, currents, sediment transport, sea-level rise, and human interventions. This map helps identify spatial patterns of shoreline retreat and advance, allowing cities to assess where existing buildings, roads, and critical infrastructure may face increasing exposure to coastal hazards. 
+
+By localizing these areas, municipalities can implement programs of protection (through hard-protection interventions, sediment-based solutions, or ecosystem-based adaptation), accommodation, advance (through creating and raising land), or retreat. 
+
+Areas experiencing accretion indicate shoreline progradation, which may create opportunities for land-use planning, ecosystem restoration, or protective buffer expansion. However, accretion can also reflect altered sediment dynamics and may not represent long-term stability. 
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+The length and color of the transects extending perpendicular to the shoreline represent the rate of shoreline change (measured as meters per year) and its direction. Negative values (warm colors) indicate landward retreat (erosion), while positive values (cool colors) indicate seaward advance (accretion). Yellow denotes near-zero change, suggesting relative shoreline stability. 
+
+Dark red segments represent high erosion rates (≥ 3 m/year of retreat), indicating high-hazard zones where infrastructure and assets may face immediate exposure. Orange reflects moderate erosion (approximately −1.5 m/year). Light and dark green segments represent accretion rates of approximately +1.5 m/year and ≥ +3 m/year, respectively, indicating shoreline progradation. 
+:::

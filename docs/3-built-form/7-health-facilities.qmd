@@ -1,0 +1,70 @@
+---
+title: "Health Facilities"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>OpenStreetMap </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.openstreetmap.org/?#map=6/42.09/12.56" target="_blank">OpenStreetMap</a></td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Access to health facilities is measured using a network-based proximity analysis. This means calculating the shortest realistic travel distance from each location to the nearest health facility by following existing streets, rather than drawing a straight line (“as the crow flies”). Unlike simple (Euclidean) proximity analysis, which measures straight-line distance and can underestimate access in areas with fragmented street layouts, cul-de-sacs, or natural and infrastructural barriers, the network-based method accounts for actual connectivity and impedance—that is, the resistance of movement along real travel paths. In practice, this approach is similar to how navigation apps compute the shortest route to a destination. It identifies which areas are well served and which are farther from medical services. The analysis uses OpenStreetMap data, including all facilities tagged as health amenity, clinic, or hospital. Because OSM coverage is incomplete, some facilities may not be captured. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Access to health facilities is a cornerstone of well-being and resilience. Proximity to hospitals and clinics is linked with better health outcomes, reduced mortality, and faster emergency response. Measuring access helps planners identify underserved neighborhoods, assess spatial equity, and prioritize investments to achieve universal health coverage goals.  
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Health facility locations are extracted from OpenStreetMap based on health-related tags (e.g., health amenity, clinic, hospital). Using the road network, a nearest-facility network analysis is performed to calculate the shortest distance from each point in the study area to the nearest health facility. Results are grouped into categories (e.g., <1 km, 1–2 km, 2–3 km) and mapped to visualize well-served areas and coverage gaps. Distances are computed along the mapped road network. Results do not account for slope, stairs, seasonal flooding or extreme heat, safety —especially in FCV contexts—, crossing quality, or other existing barriers unless these layers are explicitly modeled as impedances or exclusions. This approach accounts for actual travel paths rather than straight-line distances, providing a more realistic picture of accessibility. 
+::: 
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Shorter network distances to health facilities are associated with greater use of preventive, curative, rehabilitative, and emergency services. As distance or travel time increases, the use of essential health services declines, since longer or more difficult trips reduce the likelihood of seeking or receiving timely care. 
+
+Areas located far from facilities—often in peripheral, rural, or low-density neighborhoods—signal potential gaps in service coverage. They may require new or upgraded health posts, improved road connectivity, or mobile and community-based care solutions. In fragile or hazard-prone contexts, physical proximity alone may not translate into effective access when safety, flooding, or impassable terrain constrain mobility. 
+
+While there is no universal threshold for “adequate” distance to health facilities, research consistently shows that the probability of using health services decreases as distance or travel time increases. The relationship is continuous rather than fixed: even small increases in distance can have meaningful effects. Hence, maps of proximity should be read as indicators of potential access—to be interpreted alongside data on facility readiness, service quality, and other contextual factors that affect people’s ability to reach care. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+“OpenStreetMap.” n.d. OpenStreetMap. https://www.openstreetmap.org/.
+</div>
+:::

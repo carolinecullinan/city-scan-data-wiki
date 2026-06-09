@@ -1,0 +1,68 @@
+---
+title: "Slope"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Forest And Buildings removed Copernicus DEM </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn" target="_blank">Fathom</a></td>
+      <td>2023</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>30 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Slope refers to the percentage change in elevation over a certain distance. In hilly or mountainous areas, floods can occur within minutes after heavy rains, while in flat areas, floodwaters can remain for days.  
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Considering the slope of land is important in reducing construction costs, extending services and public facilities, minimizing the risks of hazards like flooding and landslides, and mitigating the impacts of development on natural resources.  
+
+In Bangladesh, the lack of changing slope and the majority of the land cover being low-lying poses significant risks related to flooding, drainage and water management, agriculture, and infrastructure design. Without natural drainage slopes, water accumulation can increase flood risks. This can also lead to disparate impacts on drainage and irrigation on agricultural lands, causing issues such as waterlogging and salinization, which may impact crop yield outputs. Moreover, there are current capacity constraints on existing infrastructure  
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Leverages same data suite and methods as <a href="/docs/5-risk-identification/7-elevation.qmd" target="_blank">elevation</a>.
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Similarly to elevation, slope has significant implications toward management of resilience and infrastructure in a region. Areas with small slopes risk more prolonged and intense flooding events, slower water flow and poor drainage, widespread erosion, and sediment disposition. Areas with large slopes risk rapid erosion and impediment of infrastructural and built environment development. Moreover, high slopes can diminish transit and general accessibility of a region.
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+“FABDEM.” n.d. Fathom. https://www.fathom.global/product/fabdem/.
+</div>
+:::

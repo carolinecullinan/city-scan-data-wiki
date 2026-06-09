@@ -1,0 +1,61 @@
+---
+title: "Water Risk"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="" target="_blank"></a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+</div>
+:::

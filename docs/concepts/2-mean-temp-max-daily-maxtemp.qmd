@@ -1,0 +1,18 @@
+---
+title: "Mean Temperature and Maximum of Daily Max-Temperature"
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Mean temperature refers the average mean temperature over a year. The daily max-temperature refers to the maximum single day maximum temperature over a year. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Temperature increases of up to 1.5 degrees could lead to a variety of consequences with regards to health, productivity, and natural hazards. For urban residents, higher temperatures could mean more incidents of heat-related illnesses, such as heat exhaustion, heat stroke, cardiovascular and kidney diseases, and even death. Rising temperatures could also worsen air pollution by increasing ground-level ozone smog, which is created when pollution from cars, factories, and other sources reacts to sunlight and heat. Furthermore, warmer temperatures could be linked to projected precipitation increase because the Clausius-Clapeyron-Relationship dictates that for every 1ºC of increased air temperature, that air’s potential to carry moisture increases by 7%. Thus, the warmer the air, the more moisture it “can” carry, and therefore if rain were to form, much more water could be tapped into.  
+
+Importantly, mean temperature statistics do not necessarily capture seasonal differences or extreme scenarios. The rise in summer temperatures could exceed the projected average increase, exacerbating or prolonging severe weather conditions that pose a significant threat to people’s lives and livelihoods. 
+:::

@@ -1,0 +1,78 @@
+---
+title: "Elevation"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Forest And Buildings removed Copernicus DEM </td>
+      <td>Elevation</td>
+      <td>Meters above sea level </td>
+      <td><a href="https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn" target="_blank">Fathom</a></td>
+      <td>2023</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>30 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Elevation is a measure of how many meters above sea level an area is. Elevation informs an area's vulnerability to many natural disasters.  
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+The height at which infrastructure, resources, and communities sit relative to normal water levels and tides, flood waters, and storm surges and waves informs their exposure. Elevation information is critical for communities to anticipate the impacts of disasters and to prepare resilient and cost-effective response and redevelopment strategies.
+
+::: {.callout-tip title="Example"}
+In Bangladesh:  
+
+Much of Bangladesh is a low-lying delta with elevations ranging from just a few meters above sea level to below sea level in some areas. This makes it extremely vulnerable to flooding, especially during monsoon season.  
+
+The country is prone to severe cyclones and storm surges, exacerbated by its low elevation. These events can cause disruption to services and destroy critical infrastructure.  
+
+Many urban communities lie on the coast, which can be only a few meters above sea level or even below sea level, exposing highly dense populations to major climactic threats.  
+
+Riverbank erosion and sediment deposition are common problems in Bangladesh. The elevation of land can change rapidly due to sediment buildup or erosion, which can undermine infrastructure and lead to the loss of valuable land.   
+:::
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Elevation data comes from Fathom's FABDEM module as well as local terrain data, creating a blended digital terrain model. The combination of FABDEM data with available LiDAR data, Fathom has elevation coverage of the entire globe at a 30-meter resolution (with finer resolution in areas with more enhanced existing data). The data is provided as meters above sea level, which is then further categorized into various increments of 160-180 meters.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Elevation data has critical implications for resilience planning, disaster management and resource allocation. Low-lying areas closer to sea level, especially coastal areas, should be further analyzed to see the resilience of the infrastructure, withstanding disaster intervention programs, and other adaptive strategies to circumvent risks associated with flooding.  
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+“FABDEM.” n.d. Fathom. https://www.fathom.global/product/fabdem/.
+</div>
+:::

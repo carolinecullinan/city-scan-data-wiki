@@ -1,0 +1,92 @@
+---
+title: "Landslides"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global Landslide Model </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://gpm.nasa.gov/applications/global-landslide-model" target="_blank">NASA Goddard</a></td>
+      <td>2020</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>30 arc seconds (1 kilometer)</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Landslides are the mass movement of rock or soil down a slope. These movements can take many forms and can move at very different speeds, from a quick topple to a slow spread. Some landslide types are more common in steep volcanic areas, while others are more common where soil has been filled in. Different landslide types are also more likely to be caused by different trigger events, such as heavy precipitation, <a href="/docs/5-risk-identification/11-liquefaction.qmd" target="_blank">liquefaction</a>, excavation, and stream erosion. Landslides are caused by both natural and human-originated factors. Most simply, though, landslides occur when either downslope forces increase (such as increased mass above the would-be landslide site through soil saturation), or the strength of the land is reduced (such as through road cutting or vegetation loss). For more on the various landslide types, see the USGS <a href="https://web.archive.org/web/20240416223013/https://pubs.usgs.gov/circ/1325/pdf/C1325_508.pdf" target="_blank">Landslide Handbook</a>. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Landslides can cause serious damage to buildings and infrastructure that are in the path of the landslide, and even death in the case of fast moving slides like debris flows. The damage to or destruction of infrastructure like roads, bridges, pipes and electrical lines can then cause disruption in far greater areas: with roads blocked, people and goods can't move; with pipes broken, people lose access to drinking water and sewage can contaminate the land; with electrical lines down, buildings lose power for important functions. Road-related landslides are especially insidious, as roadmaking itself often increases an area's susceptibility to landslides. The excavation and in-fill both weaken the surface. While the debris of some landslides can be fairly easily bulldozed away, the debris and destruction of others may require much larger and longer projects. In either case, landslides often continue for days to months after their onset, preventing the quick return to pre-slide life. Landslides can also dam waterways. These landslide dams can cause flooding above the dams while they holds, and then intense flooding below when these typically weak dams fail.  
+
+Once areas with landslide susceptibility are identified, mitigation efforts can be taken. Possible interventions, though, include 1) reducing water weight by improving drainage and re-directing surface water (see how this parallels <a href="/docs/5-risk-identification/2-flooding.qmd" target="_blank">flooding</a> interventions), 2) adding or caring for vegetation, which both binds the soil with roots and accelerates evaporation, 2) constructing retention walls for slope stabilization and the preemptive redirection of debris flows, 4) terraforming to reduce headweight above a slope, and 5) covering slopes with mesh or cables. These listed activities are only some of the possible interventions. The specific approaches to be used depend on the particular types of landslides an area is prone to and other local factors. 
+
+Identifying more landslide-prone areas is also useful for non-mitigation activities. A city can direct development, highways, and housing away from landslide susceptible areas (as with flooding, it is common that cities grow into areas of greater hazard, as the safer areas have already been built upon). When projects do occur in areas with higher susceptibility, more care can be taken to avoid triggering a landslide: humans can cause landslides by adding weight or vibrations above a slope or by weakening a slope through excavation, soil in-fill, or saturation. 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+This map was developed by employing a fuzzy heuristic approach" to model landslide susceptibility using globally available datasets. The model incorporates slope, rock classification, distance to fault lines, highways, and forest loss, all aggregated to a common 30 arc second (or 1 kilometer) resolution. Slope is calculated by taking the gradient of Viewfinder Panorama's global digital elevation model (DEM), which augments the Shuttle Radar Topography Mission's DEM to be more reliable at higher elevations with more extreme slopes, such as the Himalayas. (Note that this is a different DEM than we use for <a href="/docs/5-risk-identification/7-elevation.qmd" target="_blank">elevation</a> and <a href="/docs/5-risk-identification/8-slope.qmd" target="_blank">slope</a>.) This 1-arc-second-resolution DEM is aggregated to 30 arc seconds by taking the maximum slope of all 900 aggregated cells in each new, lower resolution cell. Rock structure and strength is included by reclassifying Bouysse's Geological Map of the World 13 lithological classes [TK verify] into 5 quantitative classes by rock age and type, under the heuristic that younger rock and sedimentary rock are typically weaker than older rock and igneous and metamorphic rock. For seismicity, fault lines in the Geological Map of the World were vectorized, and a raster map was made measuring distance from the nearest fault line. The model incorporates highways, the construction of which can contribute to landslide susceptibility, by rasterizing OpenStreetMap's highway road network: any 30-arc-second tile that includes a highway segment is classified as a highway tile. Similarly, any tile that features any forest loss between 2000 and 2013 in Hansen's inventory of forest loss (see <a href="/docs/4-climate-conditions/5-forest-deforestation.qmd" target="_blank">forest and deforestation</a>) is classified for forest loss. 
+
+These variables are combined in a <a href="https://en.wikipedia.org/wiki/Fuzzy_logic#Fuzzy_logic_in_GIS" target="_blank">fuzzy overlay model</a>. In an <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/understanding-overlay-analysis.htm" target="_blank">overlay model</a>, multiple spatial variables are combined (such as through addition or by taking the maximum for each cell) to create a new aggregate variable, which is expected to portray a phenomenon of interest: in this case, landslide susceptibility. Unlike in spatial regression, this combination is not statistical, and is not based on the data of the outcome variable. Rather, the combination is heuristical and predetermined by the analysts, guided by prior knowledge about each variable and presumptions about how it relates to the outcome. 
+
+A heuristic model was perhaps chosen because of the incompleteness of the outcome variable's dataset. As the predicted variable, the model used 1,194 landslides around the world, between 2007 and 2013, in the Global Landslide Catalog. Only landslides with spatial accuracy of 1 kilometer or better were used. In part because these lower accuracy events were excluded, and more because there is documented underreporting with a bias toward recording landslides near settlements and roadways, this dataset is known to be incomplete, and incomplete in a non-random way. To this point, all the local inventories considered by the model developers featured greater landslide density than the global inventory. Because of this incompleteness and bias, the researchers may have not trusted the statistical relationship between the independent and dependent data sets, and thus chose a heuristic model. 
+
+In this heuristic model, a threshold is chosen for each dependent variable that indicates landslide susceptibility for that variable. For example, according to slope by itself, sites with greater than 30° of slope might be deemed landslide susceptible. Using this threshold, the variable is then transformed to a scale of 0 to 1. The transformation blurs the threshold, so that cells near the threshold are given partial values close to 1, and values farther away are given partial values closer to 0, or 0 itself. In the example of slope, areas with greater than 30° of slope are assigned a 1, areas between 10° and 30° are assigned fractional values, and areas with less than 10° of slope are assigned 0. (These break points are not necessarily the ones used by the model developers.) The choice of transformation depends on knowledge about particular variable. To read more about possible transformations, see Esri's page on <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-fuzzy-membership-works.htm" target="_blank">fuzzy membership functions</a>. 
+
+In this landslide model, all of the non-slope variables are combined using a fuzzy gamma operator. The resulting raster is then multiplied by the transformed slope variable, to ensure that no flat terrain can be marked as highly susceptible to landslides. In this way, the researchers gave extra importance to slope. Altogether, the model for susceptibility is  
+
+$Susceptibility = \left(1 - \prod_{i}^{n} (1 - X_i)\right)^{0.9} \cdot \left( \prod_{i}^{n} X_i \right)^{0.1} \cdot S$ 
+
+where $X_i$ is the transformed input variable $i$ in the set of $n$ non-slope variables and $S$ is the transformed slope variable. 
+
+This model results in a range of values between 0 and 1, with higher values indicating greater possibility of landslides. The researchers then classified the continuous result into five classes (very low, low, moderate, high and very high susceptibility) so that the each class has half the area of previous class (e.g., the low susceptibility class covers half the area covered by the very low susceptibility class). The specific break points are 0.11, 0.49, 0.671 and 0.75, but these are not physically meaningful values. 
+
+The inventory of global landslides was then used to evaluate the performance of the model. The classified version of the model yielded and <a href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc" target="_blank">area under the ROC curve (AUC)</a> of 0.82, while the unclassified, continuous, version yield an AUC of 0.85.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Landslide susceptibility measures how prone a site is to landslide formation, given its intrinsic properties (in this case, slope, rock type, road presence, fault zones and forest loss). It is not a measure of probability that a landslide will occur during any particular period. 
+
+In this map, landslide susceptibility is divided into 5 classes: very low, low, moderate, high, and very high. These classes mark break points in the landslide susceptibility index, from 0 to 1, so that each susceptibility class covers roughly twice as much area as the next. That is, very low covers about 52% of total land in the study; low, 26%; moderate 13%; high, 6%; very high, 3%. While these classes, and the index itself, were not devised based on any distribution of actual landslides, they correspond to increasing levels of landslide likelihood. Very roughly, the very high susceptibility class has a positive likelihood ratio ($\frac{True Positive Rate}{False Positive Rate}$) 3 times greater than the high susceptibility class and 100 times greater than the very low susceptibility class. With these class divisions, the model has an area under the curve (AUC) of 0.82. 
+
+In viewing this map, it is important to understand that, as with many of these layers, the input variables are limited by the requirement of being (near) globally available. For this reason, specific soil conditions and structure, cannot be included. Very different rock types and structures may appear within the same cell of this susceptibility map and may, in actuality, have very different susceptibilities to mass movement, but the model does not differentiate them. 
+
+Nor does the model differentiate between types of mass movement (falls, topples, slides, spreads flows, or their sub-types). The Global Landslide Catalog used for validation, though, emphasizes rainfall-triggered landslides, and the researchers' choice to give more weight to slope prioritizes landslides more common in steeper terrains. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+tanley, Thomas, and Dalia B. Kirschbaum. 2017. “A Heuristic Approach to Global Landslide Susceptibility Mapping.” Natural Hazards 87 (1): 145–64. https://doi.org/10.1007/s11069-017-2757-y.
+</div>
+:::

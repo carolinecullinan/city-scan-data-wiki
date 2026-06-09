@@ -1,0 +1,59 @@
+---
+title: "Built-Up Density"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>World Settlement Footprint Evolution</td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://download.geoservice.dlr.de/WSF_EVO/files/?" target="_blank">German Aerospace Center</a></td>
+      <td>2021</td>
+      <td>1985–2015</td>
+      <td>Global</td>
+      <td>30 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+This map shows the imperviousness percentage of cities' surfaces, as measured by satellite imagery. Less pervious surfaces absorb less water. This measure is a useful proxy for the density of buildings in a built-up area: impervious surfaces are typically paved structures such as roads, parking lots, airports, etc., that are covered by water-resistant material like asphalt, concrete, or conventional rooftops.
+
+Separate from population density, compact built-up areas can indicate where more interaction among people is likely to take place. In general, benefits of built-up density can include greater economic activity, higher energy efficiency, reduced infrastructure costs per capita, and more efficient public transport systems. While dense development can create opportunities for new public spaces or help limit urban sprawl—and, in some cases, protect peripheral green belts or natural habitats—it does not automatically guarantee increased access to open or green spaces within the built environment. Urban design and land-use planning are essential to ensure that high-density areas include adequate public spaces and to guide urban expansion in ways that prevent uncontrolled sprawl.
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Built-up density is a critical spatial indicator for land-use efficiency, resilience and risk-informed planning. Areas with high concentrations of impervious surfaces are more exposed to urban heat island effects, stormwater runoff, and surface flooding—especially in the absence of adequate green or permeable infrastructure. Mapping built-up density helps identify where gray infrastructure dominates and where land is least capable of absorbing shocks. When layered with population and infrastructure data, built-up density helps identify neighborhoods where exposure to climate hazards is amplified by insufficient drainage or vulnerable constructions. It also helps prioritize where investments (such as nature-based solutions) and adaptation efforts may be most needed. 
+
+Moreover, built-up density supports more effective land-use regulation and transportation system. Higher density areas offer greater viability for mass transit systems and justify investment in transit-oriented development (TOD) by ensuring ridership and accessibility. At the same time, planning tools such as density bonuses or incentive zoning can be used in compact urban areas to secure public or green spaces in exchange for vertical development. These approaches are particularly relevant in already urbanized zones where new open spaces are scarce. Encouraging densification in targeted areas can also help limit uncontrolled sprawl, reduce travel distances, and protect ecological buffers at the urban periphery. 
+:::
+
+::: {.wiki-section}
+
+## Source Data Citation
+
+<div class="citation-block">
+Marconcini, Mattia, Annekatrin Metz- Marconcini, Thomas Esch, and Noel Gorelick. 2021. “Understanding Current Trends in Global Urbanisation - The World Settlement Footprint Suite.” GI_Forum 2021, Volume 9, (June): 33–38. https://doi.org/10.1553/giscience2021_01_s33.
+</div>
+:::

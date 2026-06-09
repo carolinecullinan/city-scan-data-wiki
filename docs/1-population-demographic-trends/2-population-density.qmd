@@ -1,0 +1,88 @@
+---
+title: "Population Density"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global Cities Database</td>
+      <td>Population count</td>
+      <td>People</td>
+      <td>Oxford Economics</td>
+      <td>2022</td>
+      <td>2000–2040</td>
+      <td>Global</td>
+      <td>City-level</td>
+    </tr>
+    <tr>
+      <td>City Population</td>
+      <td>Population count</td>
+      <td>People</td>
+      <td><a href="https://www.citypopulation.de" target="_blank">Thomas Brinkhoff</a></td>
+      <td>On-going</td>
+      <td>1970–2024</td>
+      <td>Global</td>
+      <td>Administration-level</td>
+    </tr>
+    <tr>
+      <td>WorldPop</td>
+      <td>Population density</td>
+      <td>People</td>
+      <td><a href="https://www.worldpop.org" target="_blank">WorldPop</a></td>
+      <td>NA</td>
+      <td>2000–2020</td>
+      <td>Global</td>
+      <td>100 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Population density measures the number of people that live within a designated area of measurement using most recent census data. Population density helps identify areas that may be urban cores, suburban areas, and underpopulated regions.  
+
+Population density measures the number of people living within a designated area. It is a core spatial-demographic indicator that displays how intensively land is occupied and used. Density helps explain how cities function in terms of resource allocation and distribution. Higher population density allows governments to deliver essential infrastructure and services in urban areas at relatively lower cost per capita. However, the efficiency of this can vary, as urban growth may lead to diminishing returns or new challenges as cities reach certain thresholds of density. To maximize the benefits of density, cities need policies focused on efficient urban planning, strategic infrastructure investment, and sustainable growth management. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Population density often has extensive resource allocation and urban growth implications. Areas of high population density often denote a need for robust infrastructure, public service distribution, and transportation planning, among others. Moreover, higher population density enables governments to deliver essential services at a lower cost per capita. Identifying areas of increased population density can allow policy makers and planners to make informed choices about zoning, urban expansion, and areas of commercial or residential development. For resilience planning, understanding where and how populations concentrate is essential to assess exposure to hazards and guide climate adaptation, disaster preparedness, and sustainable growth strategies.
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Population counts are taken from updated census information and aggregated into a consistent unit of measurement. In this map, it is estimated population numbers per 10,000 m<sup>2</sup> grid cell. Knowing general distribution patterns of people is critical for service delivery, impact assessments, and intervention plans.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+High population density will often indicate economic centers and highly urbanized residential neighborhoods while lower population density indicates more suburban residential and less intensively  developed land. However, given the data's resolution and lack of intimate knowledge of specific neighborhood dynamics, population density provides a high-level overview of population trends in a region. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Bondarenko, Maksym, David Kerr, Alessandro Sorichetta, and Andrew Tatem. 2020. “Census/Projection-Disaggregated Gridded Population Datasets for 189 Countries in 2020 Using Built-Settlement Growth Model (BSGM) Outputs.” University of Southampton. https://doi.org/10.5258/SOTON/WP00684. 
+</div>
+:::

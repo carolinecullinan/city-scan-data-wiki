@@ -1,0 +1,66 @@
+---
+title: "Economic Hotspots"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Visible Infrared Imaging Rediometer Suite (VIIRS) Stray Light Corrected Nighttime Day/Night Band Composites Version 1</td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.earthdata.nasa.gov/data/instruments/viirs/land-near-real-time-data" target="_blank">NASA Earthdata</a></td>
+      <td>NA</td>
+      <td>2013-NRT</td>
+      <td>Global</td>
+      <td>750 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Nighttime light radiance – measured as the monthly average brightness observed in satellite imagery – is used here as a proxy for economic activity. Areas with higher levels of artificial light typically correspond to higher urbanization and more commercial and industrial activity. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Nighttime lights data provides a continuous global monitoring of economic activity, particularly useful where economic activity data is scarce or outdated. As the data is collected consistently at the same time each night, it is possible to make temporal comparisons. While most global economic indicator data is available at a national level, nighttime lights can be viewed and analyzed and smaller spatial resolutions, which is significantly beneficial for an analysis at the city or neighborhood level. It also offers a unique advantage in capturing informal economic activity, which is often absent from conventional datasets. Nighttime light radiance is also used, at times, as a proxy for wealth – and indeed it is a feature in the relative wealth model. 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Nighttime light data is collected by satellites equipped with Visible Infrared Imaging Radiometer Suite (VIIRS), which cross the equator at around 01:30 a.m. local time. The data is collected, geolocated, and calibrated, thus creating a daily value of nanowatts per square centimeter per steradian— a measure of radiance indicating how much light is emitted from a surface area in a given direction. The daily measurements are aggregated into an average monthly value. This map shows the cumulative monthly radiance for the past 10 years.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Higher nighttime light emissions generally indicate higher levels of economic activity. However, it is important to emphasize that nighttime lights are a proxy, not a direct measure of economic output. They offer valuable insight into the spatial patterns of economic activity, infrastructure development, and urbanization – but must be interpreted in context. While increased brightness often corresponds to urban growth or infrastructure expansion, it can also reflect the spread of informal settlements, which may not align with improved living conditions or broader economic development outcomes. Conversely, areas with limited electrification may appear dim despite active local economies, leading to potential underestimation of economic activity. Different types of economic activity generate varying levels of nighttime light. For example, a gas station may emit more light than a daytime market, even if the latter plays a more central role in the local economy. Nighttime light data is best used to complement – not replace – other socioeconomic data, offering a spatially detailed lens on patterns of activity that are often missed in conventional indicators. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Mills, Stephen, Stephanie Weiss, and Calvin Liang. 2013. “VIIRS Day/Night Band (DNB) Stray Light Characterization and Correction.” In Earth Observing Systems XVIII, 8866:549–66. SPIE. https://doi.org/10.1117/12.2023107.
+</div>
+:::

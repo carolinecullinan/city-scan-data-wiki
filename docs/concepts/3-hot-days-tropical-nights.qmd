@@ -1,0 +1,18 @@
+---
+title: "Hot Days and Tropical Nights"
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+The radial bar chart indicating the hot day/tropical night risk category of each month. The risk classes are: 0 - no condition met, 1 - 30°C days and 20°C nights, 2 - 35°C days and 23°C nights, 3 - 40°C days and 26°C nights, and 4 - 45°C days and 29°C nights. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+More frequent hot days can lead to heat stress, increased health risks, and higher energy demand for cooling. Understanding future trends helps cities plan for heatwaves and protect vulnerable populations. 
+
+An increase in tropical nights (nights that remain uncomfortably warm) can disrupt sleep and exacerbate health issues. It can also strain energy resources as people use more cooling at night. 
+:::

@@ -1,0 +1,16 @@
+---
+title: "Warm Spell Duration Index (WSDI)"
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Warm Spell Duration Index (WSDI) is the total number of days in a year that are part of a heatwave of 6 days or longer, when the daily maximum temperature is higher than in 90% of days in the reference period 1995-2014. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+WSDI is an important measure of heatwaves, an increasingly common phenomenon in Bangladesh and around the world. Heatwaves not only pose a direct threat to urban areas by harming residents and industries, especially vulnerable populations, but also jeopardize people’s basic needs by undermining agricultural productivity and water supply in more rural areas, resulting in ripple effects like accelerating migration to urban areas and intensifying resource shortage. 
+:::

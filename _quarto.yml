@@ -1,0 +1,96 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "City Scan Data Wiki"
+  search: true
+  navbar:
+    search: false
+    right:
+      - icon: github
+        href: https://github.com/cityresilience/city-scan
+        target: _blank
+        aria-label: GitHub
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+
+      - section: "Data"
+        contents:
+          - section: "Population & Demographic Trends"
+            contents:
+            - docs/1-population-demographic-trends/1-population-growth.qmd
+            - docs/1-population-demographic-trends/2-population-density.qmd
+            - docs/1-population-demographic-trends/3-population-distribution-age-sex.qmd
+            - docs/1-population-demographic-trends/4-relative-wealth.qmd
+            - docs/1-population-demographic-trends/3-population-distribution-age-sex.qmd
+            - docs/1-population-demographic-trends/4-relative-wealth.qmd
+
+          - section: "Economic Activity"
+            contents:
+            - docs/2-economic-activity/1-economic-hotspots.qmd
+            - docs/2-economic-activity/2-economic-change.qmd
+
+          - section: "Built Form"
+            contents:
+            - docs/3-built-form/1-built-up-area.qmd
+            - docs/3-built-form/2-built-up-density.qmd
+            - docs/3-built-form/3-land-cover.qmd
+            - docs/3-built-form/4-road-network-orientation.qmd
+            - docs/3-built-form/5-intersections.qmd
+            - docs/3-built-form/6-schools.qmd
+            - docs/3-built-form/7-health-facilities.qmd
+
+          - section: "Climate Conditions"
+            contents:
+            - docs/4-climate-conditions/1-solar.qmd
+            - docs/4-climate-conditions/2-air-quality.qmd
+            - docs/4-climate-conditions/3-summer-lst.qmd
+            - docs/4-climate-conditions/4-vegetation.qmd
+            - docs/4-climate-conditions/5-forest-deforestation.qmd
+
+          - section: "Risk Identification"
+            contents:
+            - docs/5-risk-identification/1-flood-events.qmd
+            - docs/5-risk-identification/2-flooding.qmd
+            - docs/5-risk-identification/3-coastal-erosion.qmd
+            - docs/5-risk-identification/5-sea-level-rise.qmd
+            - docs/5-risk-identification/7-elevation.qmd
+            - docs/5-risk-identification/8-slope.qmd
+            - docs/5-risk-identification/9-landslides.qmd
+            - docs/5-risk-identification/10-earthquake-events.qmd
+            - docs/5-risk-identification/11-liquefaction.qmd
+            - docs/5-risk-identification/12-seismic-hazard.qmd
+            - docs/5-risk-identification/13-seismic-risk.qmd
+            - docs/5-risk-identification/14-road-network-criticality.qmd
+            - docs/5-risk-identification/15-drought.qmd
+            - docs/5-risk-identification/16-burnability.qmd
+            - docs/5-risk-identification/17-fwi.qmd
+            - docs/5-risk-identification/18-lightning-flash-rate-density.qmd
+
+      - section: "Additional Resources"
+        contents:
+        - section: "Concepts"
+          contents:
+          - docs/concepts/1-climate-projections.qmd
+          - docs/concepts/2-mean-temp-max-daily-maxtemp.qmd
+          - docs/concepts/3-hot-days-tropical-nights.qmd
+          - docs/concepts/4-warm-spell-duration-index.qmd
+          - docs/concepts/5-cold-spell-duration-index.qmd
+          - docs/concepts/6-days-precipitation-20mm-50mm.qmd
+          - docs/concepts/7-annual-precipitation-wettest-days.qmd
+          - docs/concepts/8-change-annual-exceedance-prob-5-day-cumulative-precipitation.qmd
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: false
+    toc-depth: 3
+    toc-title: "On this page"
+    smooth-scroll: true
+    link-external-newwindow: true
+    from: markdown+superscript+subscript

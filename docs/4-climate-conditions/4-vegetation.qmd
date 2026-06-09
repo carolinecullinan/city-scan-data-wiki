@@ -1,0 +1,76 @@
+---
+title: "Vegetation"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sentinel-2, Normalized Difference Vegetation Index (NDVI) </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2" target="_blank">European Space Agency</a></td>
+      <td>2020</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>10 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+This map shows the density and health of vegetation, as observed by satellite sensors. Specifically, it shows the normalized difference vegetation index, or NDVI, which uses visible and non-visible light to quantify vegetation on a scale of -1 to 1. Values below 0.1 indicate water, rock, or artificial surfaces, and higher values indicate greater vegetation density and health. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Knowing the distribution and density of plant life in and around a city is helpful for a variety of reasons. NDVI data can inform urban planning, environmental management, and public health initiatives. More plant matter in cities is associated with health benefits and the mitigation of environmental risks. Vegetation in a city can reduce temperatures and the urban heat island effect, and is an important component of passive cooling. It can also lessen air pollution by means of the deposition, dispersion and modification of pollutant particulate matter. Plants absorb rainwater and slow the flow of surface water to reduce flooding (though, <a href="https://www.researchgate.net/publication/281463152_Effect_of_vegetation_on_floods_The_case_of_the_River_Magra?" target="_blank">flooding can also increase</a> in areas where flow has slowed), and hold hillsides together to reduce erosion in the event of flooding, as well as increasing evaporation. Increased vegetation may even alter an area's climate, which in turn affects the frequency and magnitude of flooding. Green spaces in a city can also serve important civic, social, and quality of life functions, by offering spaces for gathering and activity. This role can be especially crucial during health events, such as the COVID-19 pandemic, when the increased air flow of outdoor spaces made it often healthier to spend time outside rather than inside. 
+
+This map shows the median distribution of vegetation around a city, but NDVI is also useful when different time periods are compared. With multiple data points across time, NDVI can show such things as the increase and decrease of biomass, the health of plants, and the presence of drought. (The City Scan also uses NDMI, the normalized difference moisture index, for measuring drought.) 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+NDVI is calculated using remote sensing data, either from satellite or aerial vehicles. In this particular project, the remote sensing data is collected by the Copernicus Programme's (/European Space Agency's) Sentinel-2 mission's two satellites, which capture multiple ranges of light reflected from the earth's surface. By combining these ranges in different ways, different phenomena on earth can be observed. Vegetation is highlighted by combining the near-infrared radiation and red radiation bands: NDVI takes the difference of near-infrared radiation ($NIR$) and red radiation ($Red$) and divides it by the two bands' sum. 
+
+$$NDVI = \frac{NIR - Red}{NIR + Red}$$ 
+
+It may seem odd that this measurement uses the red, rather than green, radiation band. Plants appear green to the human eye because, within the visible spectrum, they strongly absorb red and blue light, and reflect green light. However, plants are typically much more reflective of near infrared light, and the comparison of near infrared radiation to red radiation is more indicative of vegetation than the comparison of green radiation to red radiation. 
+
+The user generating the map has the option to plot year-round NDVI or the NDVI of the hottest months. The choice may depend on the specific geography: a user may choose to plot the seasonal NDVI values to diminish the effect of colder months when plants are dormant and emitting lower NDVI values, or when snow cover will yield negative NDVI values. Alternatively, a user may plot year-round values in a place with hot and dry summers, where vegetation is similarly dormant due to dryness. Both the year-round and seasonal values take the average monthly value from 2014 to 2023, with the seasonal values using the three on-average hottest months, as identified in the land surface temperature calculation.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+NDVI ranges between -1 and 1, with higher numbers indicating a higher density of healthy vegetation. Values of less than 0.1 typically indicate water, rock, and otherwise barren land; values of 0.1 to 0.3 are associated with shrubs and grassland; 0.3 to 0.5 corresponds to moderate vegetation; and values of more than 0.5 correspond to dense vegetation such as forests or mature crops. These numbers, though, vary by place and ecology. Different plant types emit different NDVI patterns. Because of this, an area might show lower NDVI values even while boasting lots of vegetation. In addition, NDVI does not separate plant density and plant health, nor does it account for the spatial arrangement of plant matter within an areal unit. 
+
+Because this map shows an average NDVI (whether an average of all twelve months or the hottest three), it does not show seasonality. An area may feature high vegetation density and health during one season of the year, and low vegetation during the rest of the year. In the year-round average, these high vegetation seasons will be suppressed; in the 3-month average, the high vegetation may be overly prominent or fully excluded. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+European Space Agency. 2020. “Normalized Difference Vegetation Index”. Sentinel-2. https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel2.html 
+</div>
+:::

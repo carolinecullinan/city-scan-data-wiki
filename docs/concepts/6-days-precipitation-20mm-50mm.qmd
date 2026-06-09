@@ -1,0 +1,17 @@
+---
+title: "Days with Precipitation >20mm and >50mm"
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+These indicators refer to the average count of days in a year with at least 20mm and 50mm of precipitation. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+The threshold for heavy precipitation can vary depending on local conditions and the specific impacts being assessed, but 50 millimeters is generally a good benchmark for significant rainfall events that can lead to flooding and other impacts in Bangladesh. As climate impacts are often convoluted and non-linear, it is difficult to speculate the reasons or driving forces behind the projection results. More detailed or localized assessments and modeling would be needed to understand, for example, the reason why precipitation increases in one scenario and decreases in another. 
+:::
+

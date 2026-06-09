@@ -1,0 +1,80 @@
+---
+title: "Air Quality"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global (GL) Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), v4.03 (1998 – 2019) </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.earthdata.nasa.gov/data/catalog/sedac-ciesin-sedac-sdei-gwrpm25-mmsaod-4gl03-4.03#:~:text=The%20Global%20Annual%20PM2.5%20Grids,ground%2Dlevel%20fine%20particulate%20matter%20(PM2.5)." target="_blank">NASA SEDAC,Columbia U CIESIN </a></td>
+      <td>2022</td>
+      <td>1998-2019</td>
+      <td>Global</td>
+      <td>1 kilometer</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Air quality measures the concentration of pollutants in the air that can harm human health and the environment. In this map, it measures the ground level fine particulate matter (PM) PM2.5 in 2019, measured as micrograms per cubic meter. According to the WHO and the United States EPA standards, PM2.5 concentrations should not exceed between 5 µg/m<sup>3</sup> or 12 µg/m<sup>3</sup>.
+
+PM2.5 particles are those with a diameter of 2.5 micrometers or smaller which pose significant concern because their small size allows them to penetrate deep into the lungs or bloodstream. PM2.5 particles are commonly found in vehicle emissions, industrial activities, wildfires, and other sources of combustion. Other types of particulate matter, like PM10, include coarser particles like pollen, unpaved road dust, or sea salt.  
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Understanding concentration of air quality concerns in an urbanized region can influence the need for public health and environmental remediation efforts in specific neighborhoods. Monitoring air quality is crucial to promoting livability in urbanized regions.
+
+::: {.callout-tip title="Example"}
+In Bangladesh:  
+
+Bangladesh is the world’s most polluted country, and PM2.5 particulates shortens the average Bangladeshi resident’s life by almost 7 years.  
+
+All 165 million Bangladeshi residents are exposed to an annual average PM 2.5 pollution level that exceeds both the WHO guideline and Bangladesh’s national standard of 15 µg/m<sup>3</sup>.  
+
+Since 1998, PM2.5 pollution has increased by 63 percent.  
+
+Particulate pollution is the second greatest threat to human health in Bangladesh, behind cardiovascular diseases.   
+:::
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Annual measures of air quality are done by MODIS, MISR, and SeaWiFS. The air quality is measured annually using satellite-retrieved aerosol optical depth (AOD) and accounts for daily air quality readings. Using geographically weighted regression to account for variations of data such as seasonality, the data is aggregated to a resolution of 1 km to give an annual measure of µg/m<sup>3</sup> for the year 2019.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+The map displays the 1 km grid cells in measurements of µg/m<sup>3</sup>. As the Bangladesh national standard is 15 µg/m<sup>3</sup>, areas that exceed this number may require various air quality interventions.  
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Center For International Earth Science Information Network-CIESIN-Columbia University. 2022. “Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03.” Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). https://doi.org/10.7927/FX80-4N39.
+</div>
+:::

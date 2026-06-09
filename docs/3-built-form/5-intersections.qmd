@@ -1,0 +1,61 @@
+---
+title: "Intersections"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>OpenStreetMap </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.openstreetmap.org/?#map=6/42.09/12.56" target="_blank">OpenStreetMap</a></td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Intersection density measures how many street intersections exist per unit area, reflecting the compactness and potential interconnectedness of a street network. Although rough, intersection density is a powerful signal of how walkable and micromobility-friendly a place can be. The amount and types of intersections in a road network help determine how a local community functions and the character of the streets themselves. In a good street network, most streets should connect at both ends. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Intersection density is a widely applied indicator of street network connectivity and walkability. Because it is expressed as intersections per unit area (e.g., per km<sup>2</sup> or mi<sup>2</sup>), it allows straightforward comparison between neighborhoods, cities, or regions. The metric is also strongly linked to travel behavior: higher intersection density has been shown to correlate with more route options that support greater walking and micromobility use and lower car dependence. It also helps planners and researchers assess how permeable a street network is, identify areas with poor accessibility, and evaluate changes in urban form over time. 
+:::
+
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+A street layout with many intersections—especially grids—implies shorter blocks, more route options, fewer forced detours, and better circulation for all modes, including active and micro-mobility. That improves pedestrian comfort, disperses traffic more evenly, and supports flexible travel choices. Conversely, low intersection density—typical of superblocks, cul-de-sacs, or car-oriented layouts—means longer blocks, limited route options, and reduced permeability, which tend to discourage walking and increase car dependence. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+“OpenStreetMap.” n.d. OpenStreetMap. https://www.openstreetmap.org/.
+</div>
+:::

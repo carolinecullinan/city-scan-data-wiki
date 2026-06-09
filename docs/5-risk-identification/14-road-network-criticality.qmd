@@ -1,0 +1,80 @@
+---
+title: "Road Network Criticality"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>OpenStreetMap</td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a></td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Some roads are more important than others to an area's road network. They connect more parts of the city, are used by more people on more trips, and cause larger problems when obstructed. This map shows an approximation of how important, or critical, each road segment (the length between two intersections) is to the overall network. Higher percentages indicate higher importance. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Roads are crucial for the movement of people and goods throughout, and in and out of, a city. Knowing which parts of a road network are most critical is helpful for understanding where a city's mobility is most vulnerable, as well as where non-disaster interventions could be targeted. 
+
+The criticality map highlights segments within a road network that, if blocked due to flooding or other hazards, would cause a high degree of disruption to travel across the city. The obstruction of a non-critical street may only annoy people who live nearby, while the obstruction of a more critical highway could broadly disrupt economic and social life in the city, slow emergency services during a crisis, and even prevent evacuation.  
+
+By knowing which segments are most critical, a city can work towards making the road network more resilient. This effort may involve elevating particular segments to lift them above the flood zone, repaving them with more permeable materials, reconstructing the soil sediment underneath, or adding green infrastructure such as bioswales alongside or erosion-preventing vegetation. The resilience effort could also redesign the road network more broadly, by adding network alternative routes and guiding traffic through less hazard-exposed areas. 
+
+The criticality map can also inform interventions less related to disaster preparedness but still very important. For example, a critical road may be a strong candidate for a bus rapid transit route or other public transit. Alternatively, it may be wise to put transit routes near but not along these most critical segments in order to not trap them in congestion. Locations along critical roads may also be good sites for public facilities, as these locations are closer to more parts of the city along the road network. (It is important to note, however, that by placing these facilities along critical segments, the city would be making the segments even more critical.) Finally, roads can also be obstructed by non-disaster events, such as major construction. An awareness of the most critical segments could inform the city of the possible transport and congestion impact a major construction project could have. 
+
+This layer visualizes an approximation of road network criticality. It highlights segments within a road network that, if blocked due to flooding or other hazards, would cause a high degree of disruption to travel across the city. Segments in red are the most critical for the overall connectivity of the city. 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Criticality here is measured by calculating betweenness for each segment. Betweenness for a segment is calculated by first mapping the shortest path from each intersection to every other intersection. Once all intersections have been connected to all other intersections, the total number of trips is counted, as well as the number of trips that use each road segment in the network. Each segment's betweenness score is the percentage of total trips that use that segment. 
+
+The road networks used in this analysis come from OpenStreetMaps. The analysis only includes primary and secondary roadtypes. 
+
+Depending on the city size, the model may only use a sample of intersections, rather than all the intersections in the city. The resulting betweenness scores are shown to be similar. 
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Cities vary substantially in their distributions of criticality, and therefore in their probabilities of network disruption due to the failure of a small number of road segments. For example, when a street network follows a grid pattern or has many alternative routes between destinations, the risk of disruption owing to the failure of key road segments is lower. In contrast, other cities have particular road segments whose failure would affect a large proportion of journeys across the city. 
+
+The user of this road criticality assessment should bear in mind a number of caveats. For computational reasons, this analysis treats all drivable roads equivalently, as well as all intersections equivalently. This simplification does not necessarily reflect reality. Some intersections are near the homes and workplaces of hundreds of people, while others are near the homes and workplaces of very few. Many more people will be initiating trips from the former than from the latter. Similarly, road segments differ in quality, with some being designed for greater traffic and greater speeds (e.g., a highway coursing through a city, or arterial roads running parallel to other streets in a grid). In addition, not everyone takes the shortest route: for many reasons, including congestion, road quality, familiarity, beauty, and comfort, people may take less direct routes. These more indirect routes will in some instances diffuse the network's criticality, while in other instances concentrate it. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+“OpenStreetMap.” n.d. OpenStreetMap. https://www.openstreetmap.org/.
+</div>
+:::

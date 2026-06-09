@@ -1,0 +1,66 @@
+---
+title: "Relative Wealth"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Relative Wealth Index</td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://data.humdata.org/dataset/relative-wealth-index?" target="_blank">Data for Good at Meta</a></td>
+      <td>2021</td>
+      <td>2021</td>
+      <td>93 low and moddle-income countries</td>
+      <td>2.4 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Relative wealth is a micro-estimate of wealth and poverty relative to the whole country that covers the populated surface at a 2.4 km<sup>2</sup> resolution. The data has been generated for nearly 100 low and middle income (LIMC) countries globally.  
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Mapping relative wealth provides views of both the spatial inequality within a city, and how the wealth in a city compares to the country as a whole. This information can support better resource allocation and more targeted interventions and policies. It is useful for informing the location of public investments and the provision of essential services (including schools, healthcare facilities, and public amenities), housing and land programs, and economic development strategies (including job creation initiatives).  From a resilience and climate adaptation perspective, a view of the distribution of wealth highlights areas where populations may have more limited capacity to prepare for, respond to, or recover from shocks. 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+The dataset was developed by Meta, based on Demographic and Health Surveys collected on the ground by the United States Agency for International Development (USAID) from 66,819 villages across 56 low- and middle-income countries (LMICS). These surveys served as training data for a model using less traditional wealth data sources, such as satellite imagery, cellular network data, topography, and connectivity data. The model was then used to estimate relative wealth in areas without recent Demographic and Health Surveys. The resulting value is the estimated average household wealth across all households in a given 2.4 km x 2.4 km area, in terms of standard deviations from the national mean. For more information, see the <a href="https://www.pnas.org/doi/10.1073/pnas.2113658119?" target="_blank">paper</a>. 
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Households in areas with higher relative wealth values are expected to be wealthier than households with lower relative wealth values. Of course, a 2.4 km x 2.4 km area is quite large, and there may be significant variation of wealth within that area. The average household in that area is estimated to have more wealth (as defined by the DHS, which uses assets and housing characteristics) than the average household in an area with lower relative wealth. A value of zero means that the average household in the area has the same estimated wealth as the average household in the average community in the country. As relative wealth is here expressed in terms of standard deviation, a value of one means the area’s average household wealth is one standard deviation above the national mean. In addition, because the wealth values are relative to national mean, specific values are not comparable across international borders.
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Chi, Guanghua, Han Fang, Sourav Chatterjee, and Joshua E. Blumenstock. 2022. “Microestimates of Wealth for All Low- and Middle-Income Countries.” Proceedings of the National Academy of Sciences 119 (3): e2113658119. https://doi.org/10.1073/pnas.2113658119.
+</div>
+:::

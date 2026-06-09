@@ -1,0 +1,22 @@
+---
+title: "Annual Precipitation Amount During Wettest Days "
+---
+---
+
+::: {.wiki-section}
+## What Is It?
+
+This indicator refers to the annual sum of precipitation when the daily precipitation rate exceeds the local 95th percentile of daily precipitation intensity. In other words, it is the total precipitation amount on the 5% wettest days of a year. 
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+::: {.callout-tip title="Example"}
+In Bangladesh:  
+
+Bangladesh has been significantly affected by extreme precipitation, leading to frequent and severe flooding, particularly during the monsoon season. However, it is important to understand not just the fact that precipitation patterns could change due to climate change, but also how much they might change, so that cities can design adaptive strategies at the right scale. 
+
+Moreover, although weather patterns are becoming more erratic globally, the local climate impacts can be less straightforward. Therefore, extreme precipitation projections can play a crucial role in assessing future risks on the city level. 
+:::
+:::

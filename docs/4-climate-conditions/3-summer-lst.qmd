@@ -1,0 +1,68 @@
+---
+title: "Summer Land Surface Temperature (LST)"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>USGS Landsat 9 Level 2, Collection 2, Tier 1 </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.usgs.gov/landsat-missions/landsat-collection-2-surface-temperature?" target="_blank">USGS</a></td>
+      <td>NA</td>
+      <td>2021-Present</td>
+      <td>Global</td>
+      <td>30 meters</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Summer land surface temperature (LST) refers to the temperature of the Earth's surface as measured during the three hottest months. Unlike air temperature, which is typically measured at about 1.5 to 2 meters above the ground, LST represents the actual temperature of the land or ground surface itself, including surfaces like soil, vegetation, and urban infrastructure.  
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Temperatures in an area are affected by many factors, such as land cover, elevation, slope, and proximity to water. Higher temperatures can generate or exacerbate negative effects related to health, social equity, and economic productivity. Typically, cities demonstrate higher temperatures than vegetated areas: construction materials, such as concrete, absorb more solar radiation; less vegetation results in less evapotranspiration; and more vehicle usage and mechanical cooling generate more heat.  
+
+Note that it measures surface temperature rather than ambient temperature, which can differ by several degrees. Surface temperature is primarily useful for identifying hotter and cooler areas within a specific geography.  
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+Data on land surface temperature is taken from June through September in 2014 to 2023 and the average value was extracted for every grid cell at a resolution of 30 meters. The product is generated from Landsat collection 2 Level 1 thermal infrared bands.  
+:::
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+LST is a great way to measure the impacts of human thermal comfort and heat stress. While LST is a good indicator of surface heat, it does not necessarily indicate other factors like humidity, wind, or direct sunlight. Moreover, LST may often get mistaken for measuring urban heat island effect, but it does not since urban heat island measures nighttime heat retention. However, it can give a general overview of hotter and cooler areas within a specific geography. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+Earth Resources Observation And Science (EROS) Center. 2013. “Collection-2 Landsat 8-9 OLI (Operational Land Imager) and TIRS (Thermal Infrared Sensor) Level-2 Science Products.” U.S. Geological Survey. https://doi.org/10.5066/P9OGBGM6.
+</div>
+:::

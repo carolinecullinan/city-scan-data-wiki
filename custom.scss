@@ -1,0 +1,132 @@
+/*-- scss:rules --*/
+
+/* ── colors ───────────────────────────────────────── */
+$primary:       #1a6b9a;
+$secondary:     #4a9b6f;
+$heading-color: #1c3a52;
+$link-color:    #1a6b9a;
+
+/* ── sidebar — light ─────────────────────────── */
+.sidebar {
+  background-color: #ffffff !important;
+  border-right: 1px solid #e2e8f0;
+}
+
+/* part labels (bold section headers) */
+.sidebar .sidebar-section > .sidebar-item-text {
+  color: #1c3a52 !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
+/* chapter links */
+.sidebar .sidebar-item a {
+  color: #4a5568 !important;
+  font-size: 0.875rem;
+  padding: 0.18rem 0.5rem;
+  border-radius: 3px;
+  display: block;
+}
+
+.sidebar .sidebar-item a:hover {
+  color: $primary !important;
+  background-color: #f0f6fb !important;
+}
+
+/* active page */
+.sidebar .sidebar-item.active > a {
+  color: $primary !important;
+  font-weight: 600;
+  background-color: transparent !important;
+}
+
+/* search box */
+.sidebar .form-control {
+  background: #f7fafc;
+  border-color: #e2e8f0;
+  color: #2d3748;
+}
+
+/* ── navbar — light bar ───────────────────────────────────── */
+.navbar {
+  background-color: #f8f9fa !important;
+  border-bottom: 1px solid #e2e8f0;
+}
+.navbar-brand { color: #1c3a52 !important; font-weight: 700; }
+.navbar .nav-link { color: #4a5568 !important; }
+.navbar .nav-link:hover { color: #1a6b9a !important; }
+
+/* ── body & typography ───────────────────────────────────── */
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #2d3748;
+  line-height: 1.75;
+}
+
+h1 {
+  color: $heading-color;
+  font-size: 1.9rem;
+  font-weight: 700;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.4em;
+  margin-bottom: 1.2rem;
+}
+h2 { color: $heading-color; font-size: 1.25rem; font-weight: 700; margin-top: 2.2rem; }
+h3 { color: $primary;       font-size: 1.05rem; font-weight: 600; margin-top: 1.6rem; }
+
+a { color: $link-color; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── data table ──────────────────────────────────────────── */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+  font-size: 0.875rem;
+}
+.data-table thead th {
+  background-color: $heading-color;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.7rem 0.6rem;
+  border: 1px solid #2d4f6b;
+}
+.data-table tbody td {
+  padding: 0.65rem 0.7rem;
+  border: 1px solid #cbd5e0;
+  vertical-align: top;
+  line-height: 1.5;
+}
+.data-table tbody tr:nth-child(even) { background-color: #f0f6fb; }
+.data-table tbody tr:hover { background-color: #dbeafe44; }
+
+/* ── wiki sections ───────────────────────────────────────── */
+.wiki-section { margin-top: 2rem; }
+.wiki-section h2 {
+  font-size: 1.15rem;
+  color: $primary;
+  border-left: 4px solid $primary;
+  padding-left: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+/* ── callouts ────────────────────────────────────────────── */
+.callout { border-radius: 6px; }
+.callout-tip  { border-left-color: $secondary; }
+.callout-note { border-left-color: $primary; }
+
+/* ── citation block ──────────────────────────────────────── */
+.citation-block {
+  background: #f0f6fb;
+  border: 1px solid #bee3f8;
+  border-left: 4px solid $primary;
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  font-size: 0.875rem;
+  font-family: monospace;
+  margin-top: 0.5rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

@@ -1,0 +1,52 @@
+---
+title: "Seismic Risk"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Global Earthquake Model (GEM) Seismic Risk Map </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://maps.openquake.org/map/global-seismic-risk-map/" target="_blank">Global Earthquake Model</a></td>
+      <td>2023</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>Hexagonal grid of 0.30 x 0.34 decimal degrees (approximately 1,000 km<sup>2</sup> at the equator)</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## Methodology
+
+This map indicates the geographic distribution of average annual loss (AAL) of built-up area due to ground shaking in the residential, commercial, and industrial building stock, considering contents, structural, and non-structural components. It does not consider the effects of tsunamis, liquefaction, landslides, and fires following earthquakes. The loss estimates are from direct physical damage to buildings due to shaking, and thus damage to infrastructure or indirect losses due to business interruption are not included. Seismic risk in cities has increased mainly due to urbanization, poor land-use planning and construction, inadequate infrastructure and services, and environmental degradation. Urban risk predictions and expected losses from major earthquakes in the future justify proactive risk mitigation activities. 
+
+Map data from Silva et al, 2023, Global Earthquake Model (GEM) Seismic Hazard Map and Seismic Risk Map, V2023.1. 
+
+These data and map are derived from the Global Earthquake Model, which provides information on probabilistic earthquake risk; at its scale, it does not address the vulnerability to earthquakes of individual structures or sub-regions. An earthquake with moderate damage potential can cause structural damage to unreinforced masonry buildings and the movement of wood-frame houses. See <a href="https://web.archive.org/web/20120306024658/http://quake.abag.ca.gov/shaking/mmi/plaintext/" target="_blank">here</a> for more. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+V Silva, D Amo-Oduro, A Calderon, J Dabbeek, V Despotaki, L Martins, A Rao, M Simionato, D Viganò, C Yepes, A Acevedo, N Horspool, H Crowley, K Jaiswal, M Journeay, M Pittore (2018). Global Earthquake Model (GEM) Seismic Risk Map (version 2018.1). DOI: 10.13117/GEM-GLOBAL-SEISMIC-RISK-MAP-2018.1
+</div>
+:::

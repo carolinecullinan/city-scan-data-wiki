@@ -1,0 +1,72 @@
+---
+title: "Schools"
+---
+
+## Dataset Reference
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Measurement</th>
+      <th>Units</th>
+      <th>Source</th>
+      <th>Release Year</th>
+      <th>Years of Data</th>
+      <th>Coverage</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>OpenStreetMap </td>
+      <td>---</td>
+      <td>---</td>
+      <td><a href="https://www.openstreetmap.org/?#map=6/42.09/12.56" target="_blank">OpenStreetMap</a></td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>Global</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+::: {.wiki-section}
+## What Is It?
+
+Access to schools is measured using a proximity analysis along the road network. This means calculating the shortest travel distance from each location to the nearest school following the existing streets, rather than drawing a straight line “as the crow flies”. Linear measures can underestimate access in areas with fragmented street networks, different street designs (for instance, cul-de-sacs), or existing barriers., tIn practice, this approach is similar to how navigation apps compute the shortest route to a destination. This map identifies the areas that are most- and least-accessible to schools. The analysis includes all facilities classified in  OpenStreetMap as a school, kindergarten, college, or university. Note that there may be more schools that are not included in OpenStreetMap.
+:::
+
+::: {.wiki-section}
+## Why Use It?
+
+Measuring access to schools helps assess whether residents, especially children, can reach educational opportunities within a reasonable travel distance. Distances under about 800 meters are often considered walkable for young children, while older students may manage longer walks. Evidence indicates that greater distances to school are associated with lower enrollment, higher absenteeism and dropout, and weaker learning and health outcomes. The indicator also highlights spatial inequalities in service provision and supports planning for equity, helping to identify underserved areas, benchmark coverage, monitor progress toward universal education goals, and guide investment in new schools or mobility solutions. 
+:::
+
+::: {.wiki-section}
+## How Is It Made?
+
+School locations are extracted from OpenStreetMap based on education tags such as school, kindergarten, college, or university. Using the road network, a network analysis is performed to calculate the shortest travel distance from each point in the study area to the nearest school. Distances are grouped into categories (e.g., <800 m, 800–1,600 m, 1,600–2,400 m), which are then mapped to show well-served areas and coverage gaps.
+
+Distances are computed along the mapped road network. Results do not account for slope, stairs, seasonal flooding or extreme heat, safety —especially in FCV contexts—, crossing quality, or other existing barriers unless these layers are explicitly modeled as impedances or exclusions. This approach accounts for actual travel paths rather than straight-line distances, providing a more realistic picture of accessibility.
+::: 
+
+::: {.wiki-section}
+## How Should We Interpret It?
+
+Shorter network distances to schools indicate better access. Distances of under about 800 meters are generally considered walkable for young children, while distances up to 1.6 kilometers can still be manageable for older students. Beyond 2–3 kilometers, most students are unlikely to walk and are more dependent on school buses (not always available), or other transport. 
+
+Low-access areas—often in peripheral or low-density neighborhoods—signal gaps in education service coverage. They may require new schools, improved road connectivity, or targeted transport solutions. Evidence from developing contexts shows that greater distance to school can negatively affect enrollment, attendance, and even learning and health outcomes. 
+
+An important aspect to consider is that while there is no global consensus on a single “reasonable” distance to school, several benchmarks are commonly cited. Distances of around 800 m are often considered walkable for younger children, while older students may manage up to 1.6km. For cycling, feasible distances can extend to 4–8 km depending on age and conditions. In FCV or low-density settings, access is shaped as much by travel time, safety, and other context-dependent factors as by distance alone. 
+:::
+
+::: {.wiki-section}
+## Source Data Citation
+
+<div class="citation-block">
+“OpenStreetMap.” n.d. OpenStreetMap. https://www.openstreetmap.org/.
+</div>
+:::
